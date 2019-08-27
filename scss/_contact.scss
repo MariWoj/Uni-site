@@ -1,0 +1,35 @@
+.contact {
+    width: 100%;
+    &__data {
+        width: 80%;
+        margin: 50px auto;
+        border: 2px solid $uni-color;
+    }
+    &__header {
+        margin: 20px auto;
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bold;
+    }
+    &__paragraph {
+        text-align: center;
+        font-size: 2rem;
+        margin: 25px auto;
+    }
+    &__link{
+    color: $uni-color;
+    }
+    &__map {
+        width: 100%;
+    }
+    &__header2 {
+        font-size: 2.8rem;
+        font-weight: bold;
+        text-align: center;
+        margin: 75px auto 25px;
+    }
+    &__iframe {
+        height: 300px;
+        width: 100%;
+    } 
+}

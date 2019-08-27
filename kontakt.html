@@ -15,74 +15,99 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1>Zakład Geografii Fizycznej</h1>
-            <a href="https://uni.wroc.pl/" target="_blank">
-                    <img src="img/logo.jpg" alt="logo">
-                </a>
+        <header class="header">
+            <h1 class="header__title">Zakład Geografii Fizycznej</h1>
+            <a class="header__link" href="https://uni.wroc.pl/" target="_blank">
+                <img class="header__logo" src="img/logo.jpg" alt="logo">
+            </a>
         </header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Strona głowna</a></li>
-                <li><a href="">O nas</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a></li>
-                        <li><a href="./pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a></li>
-                        <li><a href="./pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a></li>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="./index.html">Strona głowna</a></li>
+                <li class="menu__item"><a class="menu__link">O nas</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Nauka</a></li>
-                <li><a href="">Pracownicy</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./people/jary.html">Prof. dr hab. Zdzisław Jary</a></li>
-                        <li><a href="./people/krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a></li>
-                        <li><a href="./people/owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a></li>
-                        <li><a href="./people/korabiewski.html">Dr Bartosz Korabiewski</a></li>
-                        <li><a href="./people/raczyk.html">Dr Jerzy Raczyk</a></li>
-                        <li><a href="./people/stachnik.html">Dr Łukasz Stachnik</a></li>
-                        <li><a href="./people/rekas.html">Mgr Krzysztof Rękas</a></li>
-                        <li><a href="./people/krawczyk.html">Mgr Marcin Krawczyk</a></li>
-                        <li><a href="./people/kenis.html">Mgr Piotr Kenis</a></li>
-                        <li><a href="./people/ryzner.html">Mgr Kamila Ryzner</a></li>
-                        <li><a href="./people/skurzynski.html">Mgr Jacek Skurzyński</a></li>
-                        <li><a href="./people/szczypkowski.html">Mgr Piotr Szczypkowski</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Nauka</a></li>
+                <li class="menu__item"><a class="menu__link">Pracownicy</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/jary.html">Prof. dr hab. Zdzisław Jary</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/korabiewski.html">Dr Bartosz Korabiewski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/raczyk.html">Dr Jerzy Raczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/stachnik.html">Dr Łukasz Stachnik</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/rekas.html">Mgr Krzysztof Rękas</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/krawczyk.html">Mgr Marcin Krawczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/kenis.html">Mgr Piotr Kenis</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/ryzner.html">Mgr Kamila Ryzner</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/skurzynski.html">Mgr Jacek Skurzyński</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/szczypkowski.html">Mgr Piotr Szczypkowski</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Prace dyplomowe</a></li>
-                <li><a href="">Dla studentów</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Linki</a></li>
-                <li><a href="./kontakt.html">Kontakt</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Prace dyplomowe</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Dla studentów</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Galeria</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Linki</a></li>
+                <li class="menu__item"><a class="menu__link" href="./kontakt.html">Kontakt</a></li>
             </ul>
             <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
             </div>
         </nav>
-        <main>
+        <main class="main">
             <section class="contact">
-                <div class="contact-data">
-                    <h1>Zapraszamy do kontaktu</h1>
-                    <p>Zakład Geografii Fizycznej</p>
-                    <p>Wydział Nauk o Ziemi</p>
-                    <p>Uniwersytet Wrocławski</p>
-                    <p>ul. Cybulskiego 34, 53-110 Wrocław</p>
-                    <p>Sekretariat Zakładu Geografii Fizycznej</p>
-                    <p>mgr Agnieszka Duda</p>
-                    <p>nr tel.: 71 375 95 74 / 71 375 22 39</p>
-                    <p>e-mail: <a href="mailto:agnieszka.duda@uwr.edu.pl">agnieszka.duda@uwr.edu.pl</a></p>
+                <div class="contact__data">
+                    <h1 class="contact__header">Zapraszamy do kontaktu</h1>
+                    <p class="contact__paragraph">Zakład Geografii Fizycznej</p>
+                    <p class="contact__paragraph">Wydział Nauk o Ziemi</p>
+                    <p class="contact__paragraph">Uniwersytet Wrocławski</p>
+                    <p class="contact__paragraph">ul. Cybulskiego 34, 53-110 Wrocław</p>
+                    <p class="contact__paragraph">Sekretariat Zakładu Geografii Fizycznej</p>
+                    <p class="contact__paragraph">mgr Agnieszka Duda</p>
+                    <p class="contact__paragraph">nr tel.: 71 375 95 74 / 71 375 22 39</p>
+                    <p class="contact__paragraph">e-mail:
+                        <a class="contact__link" href="mailto:agnieszka.duda@uwr.edu.pl">agnieszka.duda@uwr.edu.pl</a>
+                    </p>
                 </div>
-                <div class="map">
-                    <h2>Tutaj nas znajdziesz:</h2>
-                    <iframe
+                <div class="contact__map">
+                    <h2 class="contact__header2">Tutaj nas znajdziesz:</h2>
+                    <iframe class="contact__iframe"
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d526.5228714290452!2d17.028775956499896!3d51.11622767706421!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470fe9e094ca4e07%3A0xa595fc71c9781dc1!2sWojciecha+Cybulskiego+34%2C+53-110+Wroc%C5%82aw!5e0!3m2!1spl!2spl!4v1550941274426"
                         width="1332" height="400" frameborder="0" style="border:0" allowfullscreen>
                     </iframe>
                 </div>
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <p>&copy;
                 <script>document.write(new Date().getFullYear());</script> Zakład Geografii Fizycznej. All Rights
                 Reserved.

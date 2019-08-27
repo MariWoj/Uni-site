@@ -16,74 +16,99 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1>Zakład Geografii Fizycznej</h1>
-            <a href="https://uni.wroc.pl/" target="_blank">
-                <img src="img/logo.jpg" alt="logo">
+        <header class="header">
+            <h1 class="header__title">Zakład Geografii Fizycznej</h1>
+            <a class="header__link" href="https://uni.wroc.pl/" target="_blank">
+                <img class="header__logo" src="img/logo.jpg" alt="logo">
             </a>
         </header>
-        <nav>
-            <ul>
-                <li><a href="./index.html">Strona głowna</a></li>
-                <li><a href="">O nas</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a></li>
-                        <li><a href="./pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a></li>
-                        <li><a href="./pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a></li>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="./index.html">Strona głowna</a></li>
+                <li class="menu__item"><a class="menu__link">O nas</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Nauka</a></li>
-                <li><a href="">Pracownicy</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./people/jary.html">Prof. dr hab. Zdzisław Jary</a></li>
-                        <li><a href="./people/krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a></li>
-                        <li><a href="./people/owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a></li>
-                        <li><a href="./people/korabiewski.html">Dr Bartosz Korabiewski</a></li>
-                        <li><a href="./people/raczyk.html">Dr Jerzy Raczyk</a></li>
-                        <li><a href="./people/stachnik.html">Dr Łukasz Stachnik</a></li>
-                        <li><a href="./people/rekas.html">Mgr Krzysztof Rękas</a></li>
-                        <li><a href="./people/krawczyk.html">Mgr Marcin Krawczyk</a></li>
-                        <li><a href="./people/kenis.html">Mgr Piotr Kenis</a></li>
-                        <li><a href="./people/ryzner.html">Mgr Kamila Ryzner</a></li>
-                        <li><a href="./people/skurzynski.html">Mgr Jacek Skurzyński</a></li>
-                        <li><a href="./people/szczypkowski.html">Mgr Piotr Szczypkowski</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Nauka</a></li>
+                <li class="menu__item"><a class="menu__link">Pracownicy</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/jary.html">Prof. dr hab. Zdzisław Jary</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/korabiewski.html">Dr Bartosz Korabiewski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/raczyk.html">Dr Jerzy Raczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/stachnik.html">Dr Łukasz Stachnik</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/rekas.html">Mgr Krzysztof Rękas</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/krawczyk.html">Mgr Marcin Krawczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/kenis.html">Mgr Piotr Kenis</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/ryzner.html">Mgr Kamila Ryzner</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/skurzynski.html">Mgr Jacek Skurzyński</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./people/szczypkowski.html">Mgr Piotr Szczypkowski</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Prace dyplomowe</a></li>
-                <li><a href="">Dla studentów</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Linki</a></li>
-                <li><a href="./kontakt.html">Kontakt</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Prace dyplomowe</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Dla studentów</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Galeria</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Linki</a></li>
+                <li class="menu__item"><a class="menu__link" href="./kontakt.html">Kontakt</a></li>
             </ul>
             <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
             </div>
         </nav>
 
         <div class="slider">
-            <img class="banner" src="img/loess1.jpg" alt="loess1">
-            <div class="arrows">
-                <i class="icon-left-circle"></i>
-                <i class="icon-right-circle"></i>
+            <img class="slider__img" src="img/loess1.jpg" alt="loess1">
+            <div class="slider__arrows">
+                <i class="slider__span icon-left-circle"></i>
+                <i class="slider__span icon-right-circle"></i>
             </div>
-            <div class="dots">
-                <span id="one" class="active"></span>
-                <span id="two"></span>
-                <span id="three"></span>
+            <div class="slider__dots">
+                <span class="slider__dots-span active" id="one"></span>
+                <span class="slider__dots-span" id="two"></span>
+                <span class="slider__dots-span" id="three"></span>
             </div>
         </div>
-        <main>
+        <main class="main">
             <section class="news">
-                <h1>Aktualności</h1>
+                <h1 class="news__header">Aktualności</h1>
 
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis commodi asperiores omnis nesciunt
+                <p class="news__body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis commodi
+                    asperiores omnis nesciunt
                     dolore? Voluptas, eveniet. Distinctio dicta praesentium, voluptate neque optio asperiores quisquam
                     iusto
                     illum aspernatur earum a. Rerum.
                 </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum perspiciatis, corporis et adipisci
+                <p class="news__body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum perspiciatis,
+                    corporis et adipisci
                     consectetur
                     vel esse, sint dignissimos molestias, dolore nobis saepe quos fuga quasi voluptate? Magni quibusdam
                     cumque
@@ -99,7 +124,8 @@
                     Placeat
                     laudantium quam nesciunt aut numquam!
                 </p>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae laborum earum tempora omnis
+                <p class="news__body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repudiandae laborum
+                    earum tempora omnis
                     necessitatibus pariatur, perferendis facere similique, dolorem commodi animi id reiciendis
                     aspernatur.
                     Exercitationem quis quo laudantium repudiandae fugiat.
@@ -111,7 +137,8 @@
                     explicabo in quos dolores nobis libero dolorum soluta perferendis id cum laudantium dolorem expedita
                     cupiditate placeat voluptas.
                 </p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odit quia iure et, aspernatur quos
+                <p class="news__body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic odit quia iure et,
+                    aspernatur quos
                     veritatis animi quae voluptatem, sit inventore unde perspiciatis vitae asperiores, veniam adipisci
                     harum sint. Praesentium.
                     Veritatis, in sapiente recusandae aliquid consectetur dolorem incidunt, nisi molestiae molestias
@@ -143,25 +170,20 @@
                     reiciendis, illo non et reprehenderit repudiandae? Maiores, vero similique?</p>
             </section>
         </main>
-        <aside>
+        <aside class="aside">
             <section class="links">
-                <div class="uni">
-                    <a href="http://www.wnoz.uni.wroc.pl/" target="_blank">
-                        <img src="img/logo2.png" alt="logo">
-                        <p>Wydział Nauk O Ziemii I Kształtowania Środowiska</p>
+                <div class="links__uni">
+                    <a class="links__link" href="http://www.wnoz.uni.wroc.pl/" target="_blank">
+                        <img class="links__img" src="img/logo2.png" alt="logo">
+                        <p class="links__paragraph">Wydział Nauk O Ziemii I Kształtowania Środowiska</p>
                     </a>
                 </div>
-                <!-- <div class="fb">
-                    <div class="fb-link">
-                        <a href="https://www.facebook.com/zgf.uwr" target="_blank"><div>Zobacz nas na Facebooku</div></a>
-                    </div> -->
-                <div class="fb">
-                    <a href="https://www.facebook.com/zgf.uwr" target="_blank"><i class="icon-facebook"></i>Zobacz nas na Facebooku</a>
+                <div class="links__fb">
+                    <a class="links__link" href="https://www.facebook.com/zgf.uwr" target="_blank"><i class="icon-facebook"></i>Zobacz nas na Facebooku</a>
                 </div>
-                <!-- </div> -->
             </section>
         </aside>
-        <footer>
+        <footer class="footer">
             <p>&copy;
                 <script>document.write(new Date().getFullYear());</script> Zakład Geografii Fizycznej. All Rights
                 Reserved.

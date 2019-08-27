@@ -15,204 +15,271 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1>Zakład Geografii Fizycznej</h1>
-            <a href="https://uni.wroc.pl/" target="_blank">
-                    <img src="../img/logo.jpg" alt="logo">
-                </a>
+        <header class="header">
+            <h1 class="header__title">Zakład Geografii Fizycznej</h1>
+            <a class="header__link" href="https://uni.wroc.pl/" target="_blank">
+                <img class="header__logo" src="../img/logo.jpg" alt="logo">
+            </a>
         </header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Strona głowna</a></li>
-                <li><a href="">O nas</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a></li>
-                        <li><a href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a></li>
-                        <li><a href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a></li>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="../index.html">Strona głowna</a></li>
+                <li class="menu__item"><a class="menu__link" href="">O nas</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Nauka</a></li>
-                <li><a href="">Pracownicy</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./jary.html">Prof. dr hab. Zdzisław Jary</a></li>
-                        <li><a href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a></li>
-                        <li><a href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a></li>
-                        <li><a href="./korabiewski.html">Dr Bartosz Korabiewski</a></li>
-                        <li><a href="./raczyk.html">Dr Jerzy Raczyk</a></li>
-                        <li><a href="./stachnik.html">Dr Łukasz Stachnik</a></li>
-                        <li><a href="./rekas.html">Mgr Krzysztof Rękas</a></li>
-                        <li><a href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
-                        <li><a href="./kenis.html">Mgr Piotr Kenis</a></li>
-                        <li><a href="./ryzner.html">Mgr Kamila Ryzner</a></li>
-                        <li><a href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
-                        <li><a href="./szczypkowski.html">Mgr Piotr Szczypkowski</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Nauka</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Pracownicy</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./jary.html">Prof. dr hab. Zdzisław Jary</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./korabiewski.html">Dr Bartosz Korabiewski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./raczyk.html">Dr Jerzy Raczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./stachnik.html">Dr Łukasz Stachnik</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./rekas.html">Mgr Krzysztof Rękas</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./kenis.html">Mgr Piotr Kenis</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./ryzner.html">Mgr Kamila Ryzner</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./szczypkowski.html">Mgr Piotr Szczypkowski</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Prace dyplomowe</a></li>
-                <li><a href="">Dla studentów</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Linki</a></li>
-                <li><a href="../kontakt.html">Kontakt</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Prace dyplomowe</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Dla studentów</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Galeria</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Linki</a></li>
+                <li class="menu__item"><a class="menu__link" href="../kontakt.html">Kontakt</a></li>
             </ul>
             <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
             </div>
         </nav>
-        <main>
+        <main class="main">
             <section class="workers">
-                <h1>Dr Łukasz Stachnik</h1>
-                <div class="worker-header">
-                    <div class="photo">
-                        <img src="" alt="Łukasz Stachnik">
+                <h1 class="workers__header">Dr Łukasz Stachnik</h1>
+                <div class="workers__head">
+                    <div class="workers__photo">
+                        <img class="workers__img" src="" alt="Łukasz Stachnik">
                     </div>
-                    <div class="main-info">
-                        <h2>Kontakt:</h2>
-                        <p>nr pokoju: 181</p>
-                        <p>nr telefonu: 071 375-9-581</p>
-                        <p>e-mail: <a href="mailto:lukasz.stachnik@uwr.edu.pl">lukasz.stachnik@uwr.edu.pl</a></p>
-                        <p>konsultacje: poniedziałek 11-13</p>
+                    <div class="workers__main-info">
+                        <h2 class="workers__header2">Kontakt:</h2>
+                        <p class="workers__paragraph">nr pokoju: 181</p>
+                        <p class="workers__paragraph">nr telefonu: 071 375-9-581</p>
+                        <p class="workers__paragraph">e-mail:
+                            <a class="workers__link" href="mailto:lukasz.stachnik@uwr.edu.pl">lukasz.stachnik@uwr.edu.pl</a>
+                        </p>
+                        <p class="workers__paragraph">konsultacje: poniedziałek 11-13</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="hr">
 
-                <h2>Zainteresowania naukowe:</h2>
-                <ul>
-                    <li>Obieg składników odżywczych w zlewniach zlodowaconych wobec zmian klimatycznych</li>
-                    <li>Rola wietrzenia chemicznego w uwalnianiu składników rozpuszczonych w obszarach polarnych</li>
-                    <li>Długi transport zanieczyszczeń organicznych i nieorganicznych do Arktyki</li>
-                    <li>Role absorpcji w transporcie składników śladowych w zlewniach o różnym stopniu przekształceń
+                <h2 class="workers__header2">Zainteresowania naukowe:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Obieg składników odżywczych w zlewniach zlodowaconych wobec zmian
+                        klimatycznych</li>
+                    <li class="workers__item">Rola wietrzenia chemicznego w uwalnianiu składników rozpuszczonych w
+                        obszarach polarnych</li>
+                    <li class="workers__item">Długi transport zanieczyszczeń organicznych i nieorganicznych do Arktyki
+                    </li>
+                    <li class="workers__item">Role absorpcji w transporcie składników śladowych w zlewniach o różnym
+                        stopniu przekształceń
                         antropogenicznych</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wykształcenie:</h2>
-                <ul>
-                    <li><span>2002 – 2005:</span> Studia licencjackie na kierunku biologia w Wydziale Biologii i Nauk o
+                <h2 class="workers__header2">Wykształcenie:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2002 – 2005:</span> Studia licencjackie na
+                        kierunku biologia w
+                        Wydziale Biologii i Nauk o
                         Ziemi Uniwersytetu Jagiellońskiego
                     </li>
-                    <li><span>2005:</span> Dyplom licencjata geografii, tytuł pracy: Produkcja borówek (Vaccinum
+                    <li class="workers__item"><span class="workers__span">2005:</span> Dyplom licencjata geografii,
+                        tytuł pracy: Produkcja
+                        borówek (Vaccinum
                         myrtillus) na połoninach Bieszczad jako potencjalna baza pokarmowa niedźwiedzia brunatnego Ursus
                         arctos L.</li>
-                    <li><span>2005 – 2008:</span> Studia magisterskie w Instytucie Geografii i Gospodarki Przestrzennej
+                    <li class="workers__item"><span class="workers__span">2005 – 2008:</span> Studia magisterskie w
+                        Instytucie Geografii i
+                        Gospodarki Przestrzennej
                         Uniwersytetu Jagiellońskiego</li>
-                    <li><span>2008:</span> Dyplom magistra geografii, specjalność hydrologia, tytuł pracy: Geochemiczna
+                    <li class="workers__item"><span class="workers__span">2008:</span> Dyplom magistra geografii,
+                        specjalność hydrologia,
+                        tytuł pracy: Geochemiczna
                         i fizyczna denudacja w zlewni lodowca Obrucheva (Ural Polarny)</li>
-                    <li><span>2008 – 2017:</span> Studia doktoranckie Instytucie Geografii i Gospodarki Przestrzennej
+                    <li class="workers__item"><span class="workers__span">2008 – 2017:</span> Studia doktoranckie
+                        Instytucie Geografii i
+                        Gospodarki Przestrzennej
                         Uniwersytetu Jagiellońskiego
                     </li>
-                    <li><span>2017:</span> Obrona pracy doktorskiej pod kierunkiem prof. Kazimierza Krzemienia, tytuł
+                    <li class="workers__item"><span class="workers__span">2017:</span> Obrona pracy doktorskiej pod
+                        kierunkiem prof.
+                        Kazimierza Krzemienia, tytuł
                         pracy: Denudacja chemiczna w zlewni zlodowaconej na przykładzie zlewni z lodowcami Obrucheva
                         (Ural Polarny) i Werenskiolda (SW Spitsbergen)</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Dydaktyka:</h2>
-                <ul>
-                    <li>Hydrologia</li>
-                    <li>Środowiska wodne</li>
-                    <li>Geodiversity</li>
-                    <li>Geoheritage</li>
-                    <li>Geoconservation - towards sustainable Geoturism</li>
-                    <li>Chemia ziemi</li>
-                    <li>Analiza środowiska wodnego i atmosferycznego</li>
-                    <li>Analiza środowiska przyrodniczego</li>
-                    <li>Kształtowanie środowiska</li>
-                    <li>Ochrona przyrody</li>
-                    <li>Hydrologia - ćwiczenia terenowe</li>
-                    <li>Naturalne i Antropogeniczne zmiany powierzchni ziemi</li>
-                    <li>Problemy gospodarki wodnej</li>
-                    <li>Metody oznaczania zanieczyszczeń środowiska</li>
+                <h2 class="workers__header2">Dydaktyka:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Hydrologia</li>
+                    <li class="workers__item">Środowiska wodne</li>
+                    <li class="workers__item">Geodiversity</li>
+                    <li class="workers__item">Geoheritage</li>
+                    <li class="workers__item">Geoconservation - towards sustainable Geoturism</li>
+                    <li class="workers__item">Chemia ziemi</li>
+                    <li class="workers__item">Analiza środowiska wodnego i atmosferycznego</li>
+                    <li class="workers__item">Analiza środowiska przyrodniczego</li>
+                    <li class="workers__item">Kształtowanie środowiska</li>
+                    <li class="workers__item">Ochrona przyrody</li>
+                    <li class="workers__item">Hydrologia - ćwiczenia terenowe</li>
+                    <li class="workers__item">Naturalne i Antropogeniczne zmiany powierzchni ziemi</li>
+                    <li class="workers__item">Problemy gospodarki wodnej</li>
+                    <li class="workers__item">Metody oznaczania zanieczyszczeń środowiska</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Doświadczenia naukowe zdobyte za granicą:</h2>
-                <ul>
-                    <li><span>2018:</span>
-                        <ul>
-                            <li>15–19.09. Wizyta studyjna w Institut "Jozef Stefan" (Ljubljana, Słowenia)</li>
-                            <li>7-10.06. XXXVII Sympozjum Polarne, prowadzenie sesji: Metody Pomiarowe I
+                <h2 class="workers__header2">Doświadczenia naukowe zdobyte za granicą:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">15–19.09. Wizyta studyjna w Institut "Jozef Stefan" (Ljubljana,
+                                Słowenia)</li>
+                            <li class="workers__item">7-10.06. XXXVII Sympozjum Polarne, prowadzenie sesji: Metody
+                                Pomiarowe I
                                 Wizualizacyjne w Badaniach Polarnych</li>
-                            <li>26.02-2.03. Integrated Longterm Monitoring: Snow and Snow Chemistry in High Alpine
+                            <li class="workers__item">26.02-2.03. Integrated Longterm Monitoring: Snow and Snow
+                                Chemistry in High Alpine
                                 Catchments
                             </li>
                         </ul>
                     </li>
-                    <li><span>2017:</span>
-                        <ul>
-                            <li>6-7.09. British Branch International Glaciological Society</li>
-                            <li>Wrzesień. Staż na Uniwersytecie w Bristolu (prof. Jemma Wadham)</li>
-                            <li>31.03-7.04. The Arctic Science Summit Week</li>
+                    <li class="workers__item"><span class="workers__span">2017:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">6-7.09. British Branch International Glaciological Society</li>
+                            <li class="workers__item">Wrzesień. Staż na Uniwersytecie w Bristolu (prof. Jemma Wadham)
+                            </li>
+                            <li class="workers__item">31.03-7.04. The Arctic Science Summit Week</li>
                         </ul>
                     </li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Nagrody i wyróżnienia:</h2>
-                <ul>
-                    <li><span>2017:</span> Pro terrarum glacie strictarum exploratione Faculty of Earth Sciences,
+                <h2 class="workers__header2">Nagrody i wyróżnienia:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2017:</span> Pro terrarum glacie strictarum
+                        exploratione Faculty of
+                        Earth Sciences,
                         University of Silesia (Centre for Polar Studies KNOW (Leading National Research Centre)</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Udział w projektach badawczych:</h2>
-                <ul>
-                    <li>Grant NCN: 2018-2021, Rekonstrukcje i projekcje warunków hydro-klimatycznych południowego
+                <h2 class="workers__header2">Udział w projektach badawczych:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Grant NCN: 2018-2021, Rekonstrukcje i projekcje warunków
+                        hydro-klimatycznych południowego
                         Spitsbergenu, charakter udziału - wykonawca</li>
-                    <li>Grant Levelhume Trust: 2015-2017 - CALVE Calving Glaciers: Longterm Validation and Evidence,
+                    <li class="workers__item">Grant Levelhume Trust: 2015-2017 - CALVE Calving Glaciers: Longterm
+                        Validation and Evidence,
                         Charakter udziału - wykonawca</li>
-                    <li>Grant NCN: N N306 792040, 2011 – 2013: Kompleksowy model denudacji chemicznej w zlewni z
+                    <li class="workers__item">Grant NCN: N N306 792040, 2011 – 2013: Kompleksowy model denudacji
+                        chemicznej w zlewni z
                         lodowcem politermalnym na Spitsbergenie Charakter udziału – kierownik</li>
-                    <li>Arctic Field Grant (Research Council of Norway), 2013-2014: Hydrochemistry and subglacial
+                    <li class="workers__item">Arctic Field Grant (Research Council of Norway), 2013-2014: Hydrochemistry
+                        and subglacial
                         drainage pattern of the polythermal glacier Werenskioldbreen SW Svalbard, charakter udziału –
                         kierownik</li>
-                    <li>Arctic Field Grant (Research Council of Norway), 2012-2013: Relationship between biogeochemical
+                    <li class="workers__item">Arctic Field Grant (Research Council of Norway), 2012-2013: Relationship
+                        between biogeochemical
                         processes in polythermal glaciers based on hydrochemistry, charakter udziału – kierownik</li>
-                    <li>European Economic Area and Norway Grants, 2010-2011: Model of chemical weathering in the High
+                    <li class="workers__item">European Economic Area and Norway Grants, 2010-2011: Model of chemical
+                        weathering in the High
                         Arctic glacier, charakter udziału – kierownik</li>
-                    <li>4th International Polar Year, 2007-2008: The Polar Urals Environmental Change after Last Ice Age
+                    <li class="workers__item">4th International Polar Year, 2007-2008: The Polar Urals Environmental
+                        Change after Last Ice Age
                         (PUECH), charakter udziału – wykonawca i kierownik </li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wybrane publikacje:</h2>
-                <ul>
-                    <li><span>2018:</span> Łepkowska, E., <span>Stachnik Ł</span>., 2018. Which Drivers Control the
+                <h2 class="workers__header2">Wybrane publikacje:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span> Łepkowska, E.,
+                        <span class="workers__span">Stachnik Ł</span>., 2018. Which
+                        Drivers Control the
                         Suspended
                         Sediment Flux in a High Arctic Glacierized Basin (Werenskioldbreen, Spitsbergen)? Water 10(10):
                         1408. (impact factor 2.250)
                     </li>
-                    <li><span>2017:</span>
-                        <ul>
-                            <li>Kozak K., Ruman M., Kosek K., Karasiński G., <span>Stachnik Ł</span>., Polkowska Ż,
+                    <li class="workers__item"><span class="workers__span">2017:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Kozak K., Ruman M., Kosek K., Karasiński G.,
+                                <span class="workers__span">Stachnik Ł</span>., Polkowska Ż,
                                 2017. Impact of
                                 volcanic eruptions on the occurrence of PAHs compounds in the aquatic ecosystem of the
                                 southern part of West Spitsbergen (Hornsund Fiord, Svalbard). Water 9, 42, 1-21. (Impact
                                 factor:1,687)</a>
                             </li>
-                            <li>Kozak K., Polkowska Z., <span>Stachnik Ł</span>., Luks B., Chmiel S., Ruman M., Lech D.,
+                            <li class="workers__item">Kozak K., Polkowska Z.,
+                                <span class="workers__span">Stachnik Ł</span>., Luks B., Chmiel
+                                S., Ruman M., Lech D.,
                                 Kozioł K.,
                                 Tsakovski S., Simeonov V., 2016. Arctic catchment as a sensitive indicator of the
                                 environmental contamination - distribution and migration of metals: a case study of
                                 Revdalen, Svalbard. International Journal of Environmental Science and Technology
                                 13(12), 2779-2796. DOI: 10.1007/s13762-016-1137-6 (Impact factor: 2,344)
                             </li>
-                            <li><span>Stachnik Ł</span>., Majchrowska E., Yde J.C., Nawrot A.P., Cichała-Kamrowska K.,
+                            <li class="workers__item"><span class="workers__span">Stachnik Ł</span>., Majchrowska E.,
+                                Yde J.C., Nawrot A.P.,
+                                Cichała-Kamrowska K.,
                                 Ignatiuk D.,
                                 Piechota A., 2016. Chemical denudation and the role of sulfide oxidation at
                                 Werenskioldbreen, Svalbard. Journal of Hydrology 538, 177-193. DOI:
                                 10.1016/j.jhydrol.2016.03.059 (Impact factor: 3,043)
                             </li>
-                            <li><span>Stachnik Ł</span>., Yde J.C., Kondracka M., Ignatiuk D., Grzesik M., 2016. Glacier
+                            <li class="workers__item"><span class="workers__span">Stachnik Ł</span>., Yde J.C.,
+                                Kondracka M., Ignatiuk D.,
+                                Grzesik M., 2016. Glacier
                                 naled
                                 evolution and relation to the subglacial drainage system based on water chemistry and
                                 GPR surveys (Werenskioldbreen, SW Svalbard). Annals of Glaciology 57(72), 19-30. DOI:
                                 10.1017/aog.2016.9 (Impact factor: 1,84)</li>
-                            <li>Bernatek A., <span>Stachnik Ł</span>., Liro M., 2014. Digital geomorphological map of
+                            <li class="workers__item">Bernatek A., <span class="workers__span">Stachnik Ł</span>., Liro
+                                M., 2014. Digital
+                                geomorphological map of
                                 Poland 1: 100
                                 000 Jura Series. Head Office of Geodesy and Cartography - Poland.</li>
-                            <li><span>Stachnik Ł</span>., Wałach P., Uzarowicz Ł., Yde J. C., Tosheva Z., Wrońska-Wałach
+                            <li class="workers__item"><span class="workers__span">Stachnik Ł</span>., Wałach P.,
+                                Uzarowicz Ł., Yde J. C.,
+                                Tosheva Z., Wrońska-Wałach
                                 D., 2014.
                                 Water chemistry and hydrometeorology in a glacierized catchment in the Polar Urals,
                                 Russia. Journal of Mountain Science 11(5), 1097-1111. DOI: 10.1007/s11629-014-3034-0
@@ -220,12 +287,10 @@
                         </ul>
                     </li>
                 </ul>
-
-                <hr>
-
+                <hr class="hr">
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <p>&copy;
                 <script>document.write(new Date().getFullYear());</script> Zakład Geografii Fizycznej. All Rights
                 Reserved.

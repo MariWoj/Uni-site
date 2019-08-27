@@ -1,0 +1,13 @@
+.news {
+    &__header {
+        padding: 30px 40px;
+        font-size: 3rem;
+        font-weight: bold;
+        border-bottom: 2px solid $main-color;
+    }
+    &__body {
+        padding: 30px 40px;
+        font-size: 2rem;
+        border-bottom: 2px solid $main-color;
+    }
+}

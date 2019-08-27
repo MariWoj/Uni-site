@@ -1,0 +1,56 @@
+.slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    margin: 0;
+    text-align: center;
+    &__img {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        min-width: 100%;
+        min-height: 100%;
+        opacity: 0.6;
+    }
+    &__span {
+    position: absolute;
+    color: #000;
+    font-size: 4.5rem;
+    opacity: .4;
+    display: none;
+    cursor: pointer;
+    }
+    & .icon-left-circle {
+        top: 50%;
+        left: 8%;
+        transform: translate(-50%, -50%);
+    }
+    & .icon-right-circle {
+        top: 50%;
+        right: 8%;
+        transform: translate(50%, -50%);
+    }
+    &:hover &__span {
+        display: block;
+    }
+    &__dots {
+        position: absolute;
+        bottom: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    &__dots-span {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        background-color: #000;
+        margin: 0 20px;
+        border-radius: 50%;
+        box-shadow: 0 0 0 5px #fff;
+    }
+    &__dots-span.active {
+        box-shadow: 0 0 0 5px #fff, 0 0 3px 10px orange;
+    }
+}

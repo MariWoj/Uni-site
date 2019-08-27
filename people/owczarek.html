@@ -15,517 +15,690 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1>Zakład Geografii Fizycznej</h1>
-            <a href="https://uni.wroc.pl/" target="_blank">
-                    <img src="../img/logo.jpg" alt="logo">
-                </a>
+        <header class="header">
+            <h1 class="header__title">Zakład Geografii Fizycznej</h1>
+            <a class="header__link" href="https://uni.wroc.pl/" target="_blank">
+                <img class="header__logo" src="../img/logo.jpg" alt="logo">
+            </a>
         </header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Strona głowna</a></li>
-                <li><a href="">O nas</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a></li>
-                        <li><a href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a></li>
-                        <li><a href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a></li>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="../index.html">Strona głowna</a></li>
+                <li class="menu__item"><a class="menu__link" href="">O nas</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Nauka</a></li>
-                <li><a href="">Pracownicy</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./jary.html">Prof. dr hab. Zdzisław Jary</a></li>
-                        <li><a href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a></li>
-                        <li><a href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a></li>
-                        <li><a href="./korabiewski.html">Dr Bartosz Korabiewski</a></li>
-                        <li><a href="./raczyk.html">Dr Jerzy Raczyk</a></li>
-                        <li><a href="./stachnik.html">Dr Łukasz Stachnik</a></li>
-                        <li><a href="./rekas.html">Mgr Krzysztof Rękas</a></li>
-                        <li><a href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
-                        <li><a href="./kenis.html">Mgr Piotr Kenis</a></li>
-                        <li><a href="./ryzner.html">Mgr Kamila Ryzner</a></li>
-                        <li><a href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
-                        <li><a href="./szczypkowski.html">Mgr Piotr Szczypkowski</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Nauka</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Pracownicy</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./jary.html">Prof. dr hab. Zdzisław Jary</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./korabiewski.html">Dr Bartosz Korabiewski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./raczyk.html">Dr Jerzy Raczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./stachnik.html">Dr Łukasz Stachnik</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./rekas.html">Mgr Krzysztof Rękas</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./kenis.html">Mgr Piotr Kenis</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./ryzner.html">Mgr Kamila Ryzner</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./szczypkowski.html">Mgr Piotr Szczypkowski</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Prace dyplomowe</a></li>
-                <li><a href="">Dla studentów</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Linki</a></li>
-                <li><a href="../kontakt.html">Kontakt</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Prace dyplomowe</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Dla studentów</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Galeria</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Linki</a></li>
+                <li class="menu__item"><a class="menu__link" href="../kontakt.html">Kontakt</a></li>
             </ul>
             <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
             </div>
         </nav>
-        <main>
+        <main class="main">
             <section class="workers">
-                <h1>Dr hab. Piotr Owczarek prof. UWr.</h1>
-                <div class="worker-header">
-                    <div class="photo">
-                        <img src="../img/owczarek.jpg" alt="Piotr Owczarek">
+                <h1 class="workers__header">Dr hab. Piotr Owczarek prof. UWr.</h1>
+                <div class="workers__head">
+                    <div class="workers__photo">
+                        <img class="workers__img" src="../img/owczarek.jpg" alt="Piotr Owczarek">
                     </div>
-                    <div class="main-info">
-                        <h2>Kontakt:</h2>
-                        <p>nr pokoju: 185</p>
-                        <p>nr telefonu: +48 71 375 9573</p>
-                        <p>e-mail: <a href="mailto:piotr.owczarek@uwr.edu.pl">piotr.owczarek@uwr.edu.pl</a></p>
-                        <p>konsultacje: wtorek 12.45 – 14.45</p>
+                    <div class="workers__main-info">
+                        <h2 class="workers__header2">Kontakt:</h2>
+                        <p class="workers__paragraph">nr pokoju: 185</p>
+                        <p class="workers__paragraph">nr telefonu: +48 71 375 9573</p>
+                        <p class="workers__paragraph">e-mail:
+                            <a class="workers__link" href="mailto:piotr.owczarek@uwr.edu.pl">piotr.owczarek@uwr.edu.pl</a>
+                        </p>
+                        <p class="workers__paragraph">konsultacje: wtorek 12.45 – 14.45</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="hr">
 
-                <h2>Zainteresowania naukowe:</h2>
-                <ul>
-                    <li>Wykorzystanie metody dendrochronologicznej w analizie aktywności procesów rzeźbotwórczych</li>
-                    <li>Dendrogeomorfologia i budowa anatomiczna krzewinek obszarów polarnych</li>
-                    <li>Aktywność ruchów masowych i procesów fluwialnych w Arktyce i obszarach wysokogórskich</li>
-                    <li>Paleogeografia czwartorzędu</li>
-                    <li>Antropogeniczne uwarunkowania zmian środowiska przyrodniczego Azji Centralnej</li>
-                    <li>Wpływ działalności człowieka i ekstremalnych procesów naturalnych na przemiany środowiska
+                <h2 class="workers__header2">Zainteresowania naukowe:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Wykorzystanie metody dendrochronologicznej w analizie aktywności procesów
+                        rzeźbotwórczych</li>
+                    <li class="workers__item">Dendrogeomorfologia i budowa anatomiczna krzewinek obszarów polarnych</li>
+                    <li class="workers__item">Aktywność ruchów masowych i procesów fluwialnych w Arktyce i obszarach
+                        wysokogórskich</li>
+                    <li class="workers__item">Paleogeografia czwartorzędu</li>
+                    <li class="workers__item">Antropogeniczne uwarunkowania zmian środowiska przyrodniczego Azji
+                        Centralnej</li>
+                    <li class="workers__item">Wpływ działalności człowieka i ekstremalnych procesów naturalnych na
+                        przemiany środowiska
                         przyrodniczego Polski południowej</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wykształcenie:</h2>
-                <ul>
-                    <li><span>1994 – 1999:</span> Studia magisterskie na wydziale Nauk o Ziemi Uniwersytetu Śląskiego w
+                <h2 class="workers__header2">Wykształcenie:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">1994 – 1999:</span> Studia magisterskie na
+                        wydziale Nauk o Ziemi
+                        Uniwersytetu Śląskiego w
                         Katowicach</li>
-                    <li><span>2011:</span> Dyplom magistra geografii, specjalność Geomorfologia - Paleogeografia, tytuł
+                    <li class="workers__item"><span class="workers__span">2011:</span> Dyplom magistra geografii,
+                        specjalność Geomorfologia -
+                        Paleogeografia, tytuł
                         pracy magisterskiej: Środowisko sedymentacji aluwiów Warty w przełomie przez próg górnojurajski
                     </li>
-                    <li><span>2001 – 2005:</span> Studia doktoranckie na wydziale Nauk o Ziemi Uniwersytetu Śląskiego w
+                    <li class="workers__item"><span class="workers__span">2001 – 2005:</span> Studia doktoranckie na
+                        wydziale Nauk o Ziemi
+                        Uniwersytetu Śląskiego w
                         Katowicach</li>
-                    <li><span>2005:</span> Obrona pracy doktorskiej pod kierunkiem prof. dr hab. Kazimierza Klimka,
+                    <li class="workers__item"><span class="workers__span">2005:</span> Obrona pracy doktorskiej pod
+                        kierunkiem prof. dr hab.
+                        Kazimierza Klimka,
                         tytuł pracy doktorskiej: Transformacja koryt rzecznych w warunkach dostawy grubookruchowego
                         materiału stokowego</li>
-                    <li><span>2014:</span> Habilitacja (Instytut Geografii i Rozwoju Regionalnego, Uniwersytet
+                    <li class="workers__item"><span class="workers__span">2014:</span> Habilitacja (Instytut Geografii i
+                        Rozwoju Regionalnego,
+                        Uniwersytet
                         Wrocławski), tytuł osiągnięcia naukowego: Współczesna dynamika procesów stokowych i fluwialnych
                         w Arktyce oraz wybranych masywach górskich Europy Środkowej i Azji w świetle badań
                         geomorfologicznych i dendrochronologicznych </li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Dydaktyka:</h2>
-                <ul>
-                    <li>Dendrochronologia w praktyce</li>
-                    <li>Biogeografia</li>
-                    <li>Geodiversity, Geoheritage, Geoconservation - towards sustainable Geoturism</li>
-                    <li>Współczesne przemiany środowiska w górach wysokich</li>
-                    <li>Środowisko polarne</li>
-                    <li>Metody rekonstrukcji zmian środowiska przyrodniczego</li>
-                    <li>Wpływ zjawisk ekstremalnych na gospodarowanie przestrzenią</li>
-                    <li>Wstęp do geografii fizycznej</li>
-                    <li>Zagrożenia i katastrofy przyrodnicze</li>
-                    <li>Formy ochrony przyrody (ćwiczenia terenowe)</li>
-                    <li>Hydrologia (ćwiczenia terenowe)</li>
-                    <li>Strefy krajobrazowe Europy (ćwiczenia terenowe)</li>
+                <h2 class="workers__header2">Dydaktyka:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Dendrochronologia w praktyce</li>
+                    <li class="workers__item">Biogeografia</li>
+                    <li class="workers__item">Geodiversity, Geoheritage, Geoconservation - towards sustainable Geoturism
+                    </li>
+                    <li class="workers__item">Współczesne przemiany środowiska w górach wysokich</li>
+                    <li class="workers__item">Środowisko polarne</li>
+                    <li class="workers__item">Metody rekonstrukcji zmian środowiska przyrodniczego</li>
+                    <li class="workers__item">Wpływ zjawisk ekstremalnych na gospodarowanie przestrzenią</li>
+                    <li class="workers__item">Wstęp do geografii fizycznej</li>
+                    <li class="workers__item">Zagrożenia i katastrofy przyrodnicze</li>
+                    <li class="workers__item">Formy ochrony przyrody (ćwiczenia terenowe)</li>
+                    <li class="workers__item">Hydrologia (ćwiczenia terenowe)</li>
+                    <li class="workers__item">Strefy krajobrazowe Europy (ćwiczenia terenowe)</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Doświadczenia naukowe zdobyte za granicą:</h2>
-                <ul>
-                    <li><span>2018:</span>
-                        <ul>
-                            <li>16 – 22.10. Organizacja i prowadzenie sesji naukowej na kongresie Arctic Circle
+                <h2 class="workers__header2">Doświadczenia naukowe zdobyte za granicą:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">16 – 22.10. Organizacja i prowadzenie sesji naukowej na kongresie
+                                Arctic Circle
                                 Assembly, Reykjavik, Islandia
                             </li>
-                            <li> 01 – 12.10. Udział w ekspedycji badawczej w Góry Gegamskie, Armenia</li>
+                            <li class="workers__item"> 01 – 12.10. Udział w ekspedycji badawczej w Góry Gegamskie,
+                                Armenia</li>
                         </ul>
                     </li>
-                    <li><span>2017:</span>
-                        <ul>
-                            <li>31.03 – 07.04. Organizacja i prowadzenie sesji naukowej na konferencji Arctic Science
+                    <li class="workers__item"><span class="workers__span">2017:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">31.03 – 07.04. Organizacja i prowadzenie sesji naukowej na
+                                konferencji Arctic Science
                                 Summit Week, Praga, Czechy</li>
-                            <li>20. 07 – 10.08. Udział w ekspedycji badawczej w północnej części prowincji Quebec,
+                            <li class="workers__item">20. 07 – 10.08. Udział w ekspedycji badawczej w północnej części
+                                prowincji Quebec,
                                 Kanada </li>
                         </ul>
                     </li>
-                    <li><span>2015:</span>
-                        <ul>
-                            <li>Sierpień. Staż badawczy w stacji badawczej Abisko, Szwecja</li>
-                            <li>Lipec. Udział w ekspedycji naukowej w Pamir – Ałaj, Tadżykistan</li>
-                        </ul>
-                    </li>
-                    <li><span>2014:</span>
-                        <ul>
-                            <li>Lipiec - sierpień. Udział w ekspedycji naukowej w Pamir – Ałaj, Tadżykistan</li>
-                            <li>19.04.-11.05. Wizyta studyjna w University of Tasmania, Hobart, Australia</li>
-                        </ul>
-                    </li>
-                    <li><span>2013:</span> Sierpień. Wyprawa badawcza do regionu Troms, Norwegia </li>
-                    <li><span>2012:</span>
-                        <ul>
-                            <li>Czerwiec – sierpień. Prowadzenie badań terenowych w ramach ekspedycji PAN na Wyspie
-                                Niedźwiedziej i Spitsbergenie</li>
-                            <li>10-25.04. Staż i badania naukowe w Chengdu University of Technology, Chengdu Center of
-                                China Geological Survey, Chengdu, Chiny.</li>
-                        </ul>
-                    </li>
-                    <li><span>2011:</span>
-                        <ul>
-                            <li>Czerwiec – lipiec. Prowadzenie badań terenowych na Spistbergenie</li>
-                            <li>28.03.-02.04. Wizyta studyjna w Geographisches Institut, Ruhr-Universität Bochum, Niemcy
+                    <li class="workers__item"><span class="workers__span">2015:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Sierpień. Staż badawczy w stacji badawczej Abisko, Szwecja</li>
+                            <li class="workers__item">Lipec. Udział w ekspedycji naukowej w Pamir – Ałaj, Tadżykistan
                             </li>
                         </ul>
                     </li>
-                    <li><span>2009:</span> 18.05-06.06. “Summer school on dendrochronology and dendroclimatology”,
+                    <li class="workers__item"><span class="workers__span">2014:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Lipiec - sierpień. Udział w ekspedycji naukowej w Pamir – Ałaj,
+                                Tadżykistan</li>
+                            <li class="workers__item">19.04.-11.05. Wizyta studyjna w University of Tasmania, Hobart,
+                                Australia</li>
+                        </ul>
+                    </li>
+                    <li class="workers__item"><span class="workers__span">2013:</span> Sierpień. Wyprawa badawcza do
+                        regionu Troms, Norwegia
+                    </li>
+                    <li class="workers__item"><span class="workers__span">2012:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Czerwiec – sierpień. Prowadzenie badań terenowych w ramach
+                                ekspedycji PAN na Wyspie
+                                Niedźwiedziej i Spitsbergenie</li>
+                            <li class="workers__item">10-25.04. Staż i badania naukowe w Chengdu University of
+                                Technology, Chengdu Center of
+                                China Geological Survey, Chengdu, Chiny.</li>
+                        </ul>
+                    </li>
+                    <li class="workers__item"><span class="workers__span">2011:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Czerwiec – lipiec. Prowadzenie badań terenowych na Spistbergenie
+                            </li>
+                            <li class="workers__item">28.03.-02.04. Wizyta studyjna w Geographisches Institut,
+                                Ruhr-Universität Bochum, Niemcy
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="workers__item"><span class="workers__span">2009:</span> 18.05-06.06. “Summer school on
+                        dendrochronology and
+                        dendroclimatology”,
                         Tucson, Laboratory of Tree Ring Research, University of Arizona, USA</li>
-                    <li><span>2008:</span> Czerwiec – lipiec. Prowadzenie badań terenowych na Spistbergenie</li>
-                    <li><span>2007:</span>
-                        <ul>
-                            <li>Czerwiec – lipiec. Prowadzenie badań terenowych na Spistbergenie</li>
-                            <li>29.10.-05.11. Staż naukowy w Swiss Federal Institute for Forest, Snow and Landscape
+                    <li class="workers__item"><span class="workers__span">2008:</span> Czerwiec – lipiec. Prowadzenie
+                        badań terenowych na
+                        Spistbergenie</li>
+                    <li class="workers__item"><span class="workers__span">2007:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Czerwiec – lipiec. Prowadzenie badań terenowych na Spistbergenie
+                            </li>
+                            <li class="workers__item">29.10.-05.11. Staż naukowy w Swiss Federal Institute for Forest,
+                                Snow and Landscape
                                 Research, Zürich – Birmensdorf, Szwajcaria</li>
                         </ul>
                     </li>
-                    <li><span>2006:</span> 19-25.11. 6th International Winter School on Wood Anatomy of Tree Rings,
+                    <li class="workers__item"><span class="workers__span">2006:</span> 19-25.11. 6th International
+                        Winter School on Wood
+                        Anatomy of Tree Rings,
                         Davos Laret, Swiss Federal Research Institute WSL – Dendro Sciences Unit, Szwajcaria</li>
-                    <li><span>2005:</span> 1-27.02. Stypendium CEEPUS – Central European Exchange Program forUniversity
+                    <li class="workers__item"><span class="workers__span">2005:</span> 1-27.02. Stypendium CEEPUS –
+                        Central European Exchange
+                        Program forUniversity
                         Studies, Institute of Earth Sciences, Karl Franzes University Graz, Austria</li>
-                    <li><span>2002:</span> 7-14.07. “European Summer School on the geomorphology and Quaternary Geology
+                    <li class="workers__item"><span class="workers__span">2002:</span> 7-14.07. “European Summer School
+                        on the geomorphology
+                        and Quaternary Geology
                         of Alpine and Subalpine Environments”, Research Foudation for Alpine and Subalpine Environments
                         – International Association of Geomorphology, Dornbirn, Nördlingen, Austria – Niemcy
                     </li>
-                    <li><span>2001:</span> 20-30.07. International Summer School “Environmental hazards and sustainable
+                    <li class="workers__item"><span class="workers__span">2001:</span> 20-30.07. International Summer
+                        School “Environmental
+                        hazards and sustainable
                         development in the mountain regions”,, Institute of Geography Romanian Academy, Pătârlagele,
                         Rumunia</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Nagrody i wyróżnienia:</h2>
-                <ul>
-                    <li><span>2018:</span> Nagroda Rektora Uniwersytetu Wrocławskiego za osiągnięcia naukowe</li>
-                    <li><span>2014:</span> Nagroda Rektora Uniwersytetu Wrocławskiego za osiągnięcia naukowe</li>
-                    <li><span>2009:</span> Nagroda Rektora Uniwersytetu Wrocławskiego za osiągnięcia naukowe</li>
-                    <li><span>2006:</span> Nagroda Rektora Uniwersytetu Śląskiego za osiągnięcia naukowe</li>
-                    <li><span>2006:</span> Dyplom im. Stefana Kozarskiego przyznana przez Stowarzyszenie Geomorfologów
+                <h2 class="workers__header2">Nagrody i wyróżnienia:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span> Nagroda Rektora Uniwersytetu
+                        Wrocławskiego za
+                        osiągnięcia naukowe</li>
+                    <li class="workers__item"><span class="workers__span">2014:</span> Nagroda Rektora Uniwersytetu
+                        Wrocławskiego za
+                        osiągnięcia naukowe</li>
+                    <li class="workers__item"><span class="workers__span">2009:</span> Nagroda Rektora Uniwersytetu
+                        Wrocławskiego za
+                        osiągnięcia naukowe</li>
+                    <li class="workers__item"><span class="workers__span">2006:</span> Nagroda Rektora Uniwersytetu
+                        Śląskiego za osiągnięcia
+                        naukowe</li>
+                    <li class="workers__item"><span class="workers__span">2006:</span> Dyplom im. Stefana Kozarskiego
+                        przyznana przez
+                        Stowarzyszenie Geomorfologów
                         Polskich w konkursie na najlepszą pracę doktorską z zakresu geomorfologii w roku 2005</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Udział w projektach badawczych:</h2>
-                <ul>
-                    <li>EU Horizon 2020, grant agreement No 730938 - INTERACT, 2017 – 2018 r.: project REACT -
+                <h2 class="workers__header2">Udział w projektach badawczych:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">EU Horizon 2020, grant agreement No 730938 - INTERACT, 2017 – 2018 r.:
+                        project REACT -
                         Growth-ring record of modern extreme weather phenomena in the Low Arctic (REACT). Charakter
                         udziału – główny wykonawca</li>
-                    <li>Grant NCN 2012/05/B/ST10/00437, 2012 – 2015: Przestrzenne uwarunkowania zmian w górnoreglowych
+                    <li class="workers__item">Grant NCN 2012/05/B/ST10/00437, 2012 – 2015: Przestrzenne uwarunkowania
+                        zmian w górnoreglowych
                         ekosystemach świerkowych w świetle struktury depozycji zanieczyszczeń atmosferycznych w
                         wybranych pasmach gór Polski. Charakter udziału – główny wykonawca</li>
-                    <li>Grant NCN N N306 601440, 2011 – 2014: Zmiany klimatyczne i ocena aktywności procesów
+                    <li class="workers__item">Grant NCN N N306 601440, 2011 – 2014: Zmiany klimatyczne i ocena
+                        aktywności procesów
                         peryglacjalnych południowo-zachodniego Spitsbergenu w świetle badań dendrochronologicznych.
                         Charakter udziału – kierownik</li>
-                    <li>Grant NCN 2011/01/B/ST10/07096, 2011 – 2014: Porównanie zapisu procesów geomorfologicznych i
+                    <li class="workers__item">Grant NCN 2011/01/B/ST10/07096, 2011 – 2014: Porównanie zapisu procesów
+                        geomorfologicznych i
                         pozageomorfologicznych w anatomii drewna drzew rosnących w obszarach górskich”. Charakter
                         udziału – wykonawca</li>
-                    <li>Projekt badawczy SKLGP (State Key Laboratory of Geohazard Prevention and Geoenvironment
+                    <li class="workers__item">Projekt badawczy SKLGP (State Key Laboratory of Geohazard Prevention and
+                        Geoenvironment
                         Protection, Chengdu University of Technology, China), 2012 – 2013: Reconstruction of historic
                         debris flow activity in the high mountains area. Czas realizacji: 2012-2013, kierownik projektu:
                         dr Yongbo Tie, Chengdu Center of China Geological Survey. Charakter udziału – główny wykonawca
                     </li>
-                    <li>Grant KBN nr N N306 312636, 2009 – 2012: Holoceńska i współczesna dynamika stoków w Górach
+                    <li class="workers__item">Grant KBN nr N N306 312636, 2009 – 2012: Holoceńska i współczesna dynamika
+                        stoków w Górach
                         Kamiennych (Sudety Środkowe). Charakter udziału –wykonawca</li>
-                    <li>Grant KBN PBR NR09-0029-04/2008, 2008 – 2011r.: Geoekologiczne warunki środowiska przyrodniczego
+                    <li class="workers__item">Grant KBN PBR NR09-0029-04/2008, 2008 – 2011r.: Geoekologiczne warunki
+                        środowiska przyrodniczego
                         Parku Narodowego Gór Stołowych, Projekt badawczo-rozwojowy. Charakter udziału – wykonawca</li>
-                    <li>Grant KBN 2 P04G 012 28, 2004 – 2007 r.: Wyznaczanie tempa przyrostu aluwiów oraz zawartości
+                    <li class="workers__item">Grant KBN 2 P04G 012 28, 2004 – 2007 r.: Wyznaczanie tempa przyrostu
+                        aluwiów oraz zawartości
                         wybranych zanieczyszczeń w osadach pozakorytowych wyżynnych i nizinnych rzek Polski. Charakter
                         udziału – główny wykonawca</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wybrane publikacje:</h2>
-                <ul>
-                    <li><span>2019:</span> Opała-Owczarek M, Błaś M, <span>Owczarek P</span>, Sobik M, Godek M, 2019, A
+                <h2 class="workers__header2">Wybrane publikacje:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2019:</span> Opała-Owczarek M, Błaś M,
+                        <span class="workers__span">Owczarek P</span>,
+                        Sobik M, Godek M, 2019, A
                         dendroclimatological study of east- and west-facing slopes in mountainous areas subjected to
                         strong air pollution (the Sudetes, Central Europe), Physical Geography 40 (2), 186-208.
                         <br>
-                        <a href="https://doi.org/10.1080/02723646.2018.1547872">https://doi.org/10.1080/02723646.2018.1547872</a>
+                        <a class="workers__link" href="https://doi.org/10.1080/02723646.2018.1547872">https://doi.org/10.1080/02723646.2018.1547872</a>
                     </li>
-                    <li><span>2018:</span>
-                        <ul>
-                            <li><span>Owczarek P</span>., Opała-Owczarek, M., Rahmonov, O., Razzokov, A., Jary, Z., &
+                    <li class="workers__item"><span class="workers__span">2018:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., Opała-Owczarek,
+                                M., Rahmonov, O.,
+                                Razzokov, A., Jary, Z., &
                                 Niedźwiedź, T.
                                 2018, Relationships between loess and the Silk Road reflected by environmental change
                                 and its implications for human societies in the area of ancient Panjikent, central Asia.
                                 Quaternary Research 89(3), 691-701. <br>
-                                <a href="https://doi.org/10.1017/qua.2017.69">https://doi.org/10.1017/qua.2017.69</a>
+                                <a class="workers__link" href="https://doi.org/10.1017/qua.2017.69">https://doi.org/10.1017/qua.2017.69</a>
                             </li>
-                            <li>Schaetzl R.J., Bettis E.A., Crouvi O., Fitzsimmons K.E., Grimley D.A., Hambach U.,
-                                Lehmkuhl F., Marković S.B., Mason J.A., <span>Owczarek P</span>., et al. 2018,
+                            <li class="workers__item">Schaetzl R.J., Bettis E.A., Crouvi O., Fitzsimmons K.E., Grimley
+                                D.A., Hambach U.,
+                                Lehmkuhl F., Marković S.B., Mason J.A., <span class="workers__span">Owczarek P</span>.,
+                                et al. 2018,
                                 Approaches and challenges to the study of loess - Introduction to the LoessFest Special
                                 Issue – Review. Quaternary Research 89, 563-618. <br>
-                                <a href="https://doi.org/10.1017/qua.2018.15">https://doi.org/10.1017/qua.2018.15</a>
+                                <a class="workers__link" href="https://doi.org/10.1017/qua.2018.15">https://doi.org/10.1017/qua.2018.15</a>
                             </li>
-                            <li>Opała-Owczarek M., Pirożnikow E., <span>Owczarek P</span>., Szymański W., Luks B.,
+                            <li class="workers__item">Opała-Owczarek M., Pirożnikow E.,
+                                <span class="workers__span">Owczarek P</span>.,
+                                Szymański W., Luks B.,
                                 Kępski D., Szymanowski M., Wojtuń B., Migała K. 2018, The influence of abiotic factors
                                 on the growth of two vascular plant species (Saxifraga oppositifolia and Salix polaris)
                                 in the High Arctic. Catena 163, 219-232. <br>
-                                <a href="https://doi.org/10.1016/j.catena.2017.12.018">https://doi.org/10.1016/j.catena.2017.12.018</a>
+                                <a class="workers__link" href="https://doi.org/10.1016/j.catena.2017.12.018">https://doi.org/10.1016/j.catena.2017.12.018</a>
                             </li>
-                            <li>Opała-Owczarek, M., <span>Owczarek P</span>., Rahmonov O., Niedźwiedź T. 2018: The first
+                            <li class="workers__item">Opała-Owczarek, M.,
+                                <span class="workers__span">Owczarek P</span>., Rahmonov O.,
+                                Niedźwiedź T. 2018: The first
                                 dendrochronological dating of timber from Tajikistan – potentiall for developing a
                                 millennial tree-ring record. Tree-Ring Research 74 (1), 50-62. <br>
-                                <a href="https://doi.org/10.3959/1536-1098-74.1.50">https://doi.org/10.3959/1536-1098-74.1.50</a>
+                                <a class="workers__link" href="https://doi.org/10.3959/1536-1098-74.1.50">https://doi.org/10.3959/1536-1098-74.1.50</a>
                             </li>
-                            <li>Jary, Z., <span>Owczarek P</span>., Ryzner, K., et al. 2018, Loess documentary sites and
+                            <li class="workers__item">Jary, Z., <span class="workers__span">Owczarek P</span>., Ryzner,
+                                K., et al. 2018, Loess
+                                documentary sites and
                                 their potential for geotourism in Lower Silesia (Poland). Open Geosciences, 10 (1),
                                 647-660. <br>
-                                <a href="https://doi.org/10.1515/geo-2018-0052">https://doi.org/10.1515/geo-2018-0052</a>
+                                <a class="workers__link" href="https://doi.org/10.1515/geo-2018-0052">https://doi.org/10.1515/geo-2018-0052</a>
                             </li>
-                            <li>Widawski, K., Jary, Z., Oleśniewicz, P., <span>Owczarek P</span>. et al. 2018,
+                            <li class="workers__item">Widawski, K., Jary, Z., Oleśniewicz, P.,
+                                <span class="workers__span">Owczarek P</span>.
+                                et al. 2018,
                                 Attractiveness of
                                 protected areas for geotourism purposes from the perspective of visitors: the example of
                                 Babiogórski National Park (Poland). Open Geosciences 10 (1), 358-366. <br>
-                                <a href="https://doi.org/10.1515/geo-2018-0028">https://doi.org/10.1515/geo-2018-0028</a>
+                                <a class="workers__link" href="https://doi.org/10.1515/geo-2018-0028">https://doi.org/10.1515/geo-2018-0028</a>
                             </li>
                         </ul>
                     </li>
-                    <li><span>2017:</span>
-                        <ul>
-                            <li><span>Owczarek P</span>., Opała-Owczarek M., Rahmonov O., Mendecki M. 2017: 100 Years of
+                    <li class="workers__item"><span class="workers__span">2017:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., Opała-Owczarek M.,
+                                Rahmonov O., Mendecki
+                                M. 2017: 100 Years of
                                 earthquakes
                                 in the Pamir region as recorded in juniper wood: A case study of Tajikistan. Journal of
                                 Asian Earth Sciences 138, 173-185. <br>
-                                <a href="https://doi.org/10.1016/j.jseaes.2017.02.011">https://doi.org/10.1016/j.jseaes.2017.02.011</a>
+                                <a class="workers__link" href="https://doi.org/10.1016/j.jseaes.2017.02.011">https://doi.org/10.1016/j.jseaes.2017.02.011</a>
                             </li>
-                            <li>Malik I., Wistuba M., Tie Y., <span>Owczarek P</span>., Woskowicz-Ślęzak B., Łuszczyńska
+                            <li class="workers__item">Malik I., Wistuba M., Tie Y.,
+                                <span class="workers__span">Owczarek P</span>.,
+                                Woskowicz-Ślęzak B., Łuszczyńska
                                 K. 2017:
                                 Mass movements of differing magnitude and frequency in a developing high-mountain area
                                 of the Moxi basin, Hengduan Mts, China – A hazard assessment. Applied Geography 87,
                                 54-65. <br>
-                                <a href="https://doi.org/10.1016/j.apgeog.2017.08.003">https://doi.org/10.1016/j.apgeog.2017.08.003</a>
+                                <a class="workers__link" href="https://doi.org/10.1016/j.apgeog.2017.08.003">https://doi.org/10.1016/j.apgeog.2017.08.003</a>
                             </li>
-                            <li>Opała, M., Niedźwiedź, T., Rahmonov, O., <span>Owczarek P</span>., Małarzewski, Ł. 2017:
+                            <li class="workers__item">Opała, M., Niedźwiedź, T., Rahmonov, O.,
+                                <span class="workers__span">Owczarek P</span>.,
+                                Małarzewski, Ł. 2017:
                                 Towards improving the Central Asian dendrochronological network—New data from
                                 Tajikistan, Pamir-Alay. Dendrochronologia 41, 10-23. <br>
-                                <a href="https://doi.org/10.1016/j.dendro.2016.03.006">https://doi.org/10.1016/j.dendro.2016.03.006</a>
+                                <a class="workers__link" href="https://doi.org/10.1016/j.dendro.2016.03.006">https://doi.org/10.1016/j.dendro.2016.03.006</a>
                             </li>
-                            <li>Rahmonov O, Rahmonov M., Opała-Owczarek M., <span>Owczarek P</span>., Niedzwiedz T.
+                            <li class="workers__item">Rahmonov O, Rahmonov M., Opała-Owczarek M.,
+                                <span class="workers__span">Owczarek P</span>., Niedzwiedz T.
                                 Myga-Piątek U., 2017, Ecological and cultural importance of juniper ecosystem in the
                                 area of Zeravshan valley, (Tajikistan) on the background of environmental condition and
                                 anthropogenic hazards, Geographia Polonica 90 (4), 441-461.</li>
                         </ul>
                     </li>
-                    <li><span>2016:</span>
-                        <ul>
-                            <li><span>Owczarek P</span>., Opała M. 2016: Dendrochronology and extreme pointer years in
+                    <li class="workers__item"><span class="workers__span">2016:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., Opała M. 2016:
+                                Dendrochronology and
+                                extreme pointer years in
                                 the tree-ring
                                 record (AD 1951-2011) of polar willow from southwestern Spitsbergen (Svalbard, Norway).
                                 Geochronometria 43 (1), 84-95. <br>
-                                <a href="https://doi.org/10.1515/geochr-2015-0035">https://doi.org/10.1515/geochr-2015-0035</a>
+                                <a class="workers__link" href="https://doi.org/10.1515/geochr-2015-0035">https://doi.org/10.1515/geochr-2015-0035</a>
                             </li>
-                            <li>Opała M., Migała K., <span>Owczarek P</span>. 2016: Two centuries-long dendroclimatic
+                            <li class="workers__item">Opała M., Migała K.,
+                                <span class="workers__span">Owczarek P</span>. 2016: Two
+                                centuries-long dendroclimatic
                                 reconstruction based on Low Arctic Betula pubescens from Tromsø Region, Northern Norway.
                                 Polish Polar Research 37 (4), 457–476. <br>
-                                <a href="https://doi.org/10.1515/popore-2016-0024">https://doi.org/10.1515/popore-2016-0024</a>
+                                <a class="workers__link" href="https://doi.org/10.1515/popore-2016-0024">https://doi.org/10.1515/popore-2016-0024</a>
                             </li>
-                            <li>Opała M, <span>Owczarek P</span>, 2016, Zmienność warunków termicznych Masywu Śnieżnika
+                            <li class="workers__item">Opała M, <span class="workers__span">Owczarek P</span>, 2016,
+                                Zmienność warunków
+                                termicznych Masywu Śnieżnika
                                 odtworzona na podstawie słojów rocznych Picea abies Karst. i pozostałości zabudowy
                                 drewnianej, Przyroda Sudetów 19: 211-222.</li>
                         </ul>
                     </li>
-                    <li><span>2015:</span>
-                        <ul>
-                            <li>Godek M., Sobik M., Błaś M., Polkowska Ż., <span>Owczarek P</span>., Bokwa A., 2015:
+                    <li class="workers__item"><span class="workers__span">2015:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Godek M., Sobik M., Błaś M., Polkowska Ż.,
+                                <span class="workers__span">Owczarek P</span>., Bokwa A., 2015:
                                 Tree rings as an indicator of atmospheric pollutant deposition to subalpine spruce
                                 forests in the Sudetes (Southern Poland). Atmospheric Research 151: 259-268. <br>
-                                <a href="https://doi.org/10.1016/j.atmosres.2014.09.001">https://doi.org/10.1016/j.atmosres.2014.09.001</a>
+                                <a class="workers__link" href="https://doi.org/10.1016/j.atmosres.2014.09.001">https://doi.org/10.1016/j.atmosres.2014.09.001</a>
                             </li>
                         </ul>
                     </li>
-                    <li><span>2014:</span>
-                        <ul>
-                            <li><span>Owczarek P</span>., Nawrot A., Migała K., Malik I., Korabiewski B., 2014.
+                    <li class="workers__item"><span class="workers__span">2014:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., Nawrot A., Migała
+                                K., Malik I.,
+                                Korabiewski B., 2014.
                                 Flood-plain responses to contemporary climate change in small High-Arctic basins
                                 (Svalbard, Norway). Boreas 43 (2): 384-402. <br>
-                                <a href="https://doi.org/10.1111/bor.12061">https://doi.org/10.1111/bor.12061</a></li>
-                            <li>Migoń P., Kacprzak A., Malik I., Kasprzak M., <span>Owczarek P</span>., Wistuba M.,
+                                <a class="workers__link" href="https://doi.org/10.1111/bor.12061">https://doi.org/10.1111/bor.12061</a>
+                            </li>
+                            <li class="workers__item">Migoń P., Kacprzak A., Malik I., Kasprzak M.,
+                                <span class="workers__span">Owczarek P</span>., Wistuba M.,
                                 Pánek T., 2014: Geomorphological, pedological and dendrochronological signatures of a
                                 relict landslide terrain, Mt Garbatka (Kamienne Mts), SW Poland. Geomorphology 219:
                                 213-231. <br>
-                                <a href="https://doi.org/10.1016/j.geomorph.2014.05.005">https://doi.org/10.1016/j.geomorph.2014.05.005</a>
+                                <a class="workers__link" href="https://doi.org/10.1016/j.geomorph.2014.05.005">https://doi.org/10.1016/j.geomorph.2014.05.005</a>
                             </li>
                         </ul>
                     </li>
-                    <li><span>2013:</span>
-                        <ul>
-                            <li><span>Owczarek P</span>., Latocha A., Wistuba M., Malik I., 2013. Reconstruction of
+                    <li class="workers__item"><span class="workers__span">2013:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., Latocha A.,
+                                Wistuba M., Malik I., 2013.
+                                Reconstruction of
                                 modern debris flow activity
                                 in the arctic environment with the use of dwarf shrubs – (south-western Spitsbergen) a
                                 new
                                 dendrochronological approach. Zeitschrift für Geomorphologie 57 Suppl. 3: 75-95. <br>
-                                <a href="https://dx.doi.org/10.1127/0372-8854/2013/S-00145">https://dx.doi.org/10.1127/0372-8854/2013/S-00145</a>
+                                <a class="workers__link" href="https://dx.doi.org/10.1127/0372-8854/2013/S-00145">https://dx.doi.org/10.1127/0372-8854/2013/S-00145</a>
                             </li>
-                            <li>Malik I., Tie Y., <span>Owczarek P</span>., Wistuba W., Pilorz W., Woskowicz-Ślęzak B.
+                            <li class="workers__item">Malik I., Tie Y., <span class="workers__span">Owczarek P</span>.,
+                                Wistuba W., Pilorz W.,
+                                Woskowicz-Ślęzak B.
                                 2013: Human-planted alder trees as a protection against debris flows (a
                                 dendrochronological study from the Moxi Basin, Southwestern China). Geochronometria 40
                                 (3): 208-216. <br>
-                                <a href="http://dx.doi.org/10.2478/s13386-013-0117-6">http://dx.doi.org/10.2478/s13386-013-0117-6</a>
+                                <a class="workers__link" href="http://dx.doi.org/10.2478/s13386-013-0117-6">http://dx.doi.org/10.2478/s13386-013-0117-6</a>
                             </li>
-                            <li>Pawlik Ł., Migoń P., <span>Owczarek P</span>., Kacprzak A., 2013: Surface processes and
+                            <li class="workers__item">Pawlik Ł., Migoń P.,
+                                <span class="workers__span">Owczarek P</span>., Kacprzak A., 2013:
+                                Surface processes and
                                 interactions
                                 with forest vegetation on a steep mudstone slope, Stołowe Mountains, SW Poland. Catena
                                 109: 203 – 216. <br>
-                                <a href="https://doi.org/10.1016/j.catena.2013.03.011">https://doi.org/10.1016/j.catena.2013.03.011</a>
+                                <a class="workers__link" href="https://doi.org/10.1016/j.catena.2013.03.011">https://doi.org/10.1016/j.catena.2013.03.011</a>
                             </li>
                         </ul>
                     </li>
-                    <li><span>2012:</span>
-                        <ul>
-                            <li>Jary Z., Kasprzak M., Korabiewski B., <span>Owczarek P</span>., Jancewicz K., Schutty
+                    <li class="workers__item"><span class="workers__span">2012:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Jary Z., Kasprzak M., Korabiewski B.,
+                                <span class="workers__span">Owczarek P</span>.,
+                                Jancewicz K., Schutty
                                 B., 2012: Współczesne procesy morfogenetyczne w górnej części zlewni Buchtarmy (Wysoki
                                 Ałtaj, Kazachstan). Landform Analysis 20: 31-49.
                             </li>
-                            <li><span>Owczarek P</span>., Remisz J. 2012: Znaczenie geomorfologiczne budowy anatomicznej
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., Remisz J. 2012:
+                                Znaczenie
+                                geomorfologiczne budowy anatomicznej
                                 pędów borówki czarnej Vaccinium myrtillus L. piętra subalpejskiego Karkonoszy. Przyroda
                                 Sudetów 15: 189-196.</li>
                         </ul>
                     </li>
-                    <li><span>2011:</span>
-                        <ul>
-                            <li><span>Owczarek P</span>., Franklin R., 2011: Rock spiraea (Petrophytum caespitosum) from
+                    <li class="workers__item"><span class="workers__span">2011:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., Franklin R., 2011:
+                                Rock spiraea
+                                (Petrophytum caespitosum) from
                                 the Grand
                                 Canyon - habitat and growth rings, [w:] van der Maaten-Theunissen M, Spiecker H, Gärtner
                                 H, Helle G, Heinrich I (eds.)TRACE Tree Rings in Archaeology, Climatology and Ecology ,
                                 Vol. 9, Scientific Technical Report 11/07, Potsdam : 84-88.
                             </li>
-                            <li>Migoń P., Latocha A., Parzóch K., Kasprzak M., <span>Owczarek P</span>., Witek M.,
+                            <li class="workers__item">Migoń P., Latocha A., Parzóch K., Kasprzak M.,
+                                <span class="workers__span">Owczarek P</span>., Witek M.,
                                 Pawlik Ł., 2011:
                                 Współczesny system morfogenetyczny Gór Stołowych. [w:] T. Chodak, C. Kabała, J.
                                 Kaszubkiewicz, P. Migoń, J. Wojewoda (red.) Geoekologiczne warunki środowiska
                                 przyrodniczego Parku Narodowego Gór Stołowych. WIND, Wrocław: 1-52.</li>
-                            <li><span>Owczarek P</span>., Kassa A. 2011: Ocena tempa degradacji wybranych odcinków
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., Kassa A. 2011:
+                                Ocena tempa degradacji
+                                wybranych odcinków
                                 szlaków
                                 turystycznych Parku Narodowego Gór Stołowych w świetle badań dendrochronologicznych.
                                 Przyroda Sudetów 14: 155-166.</li>
                         </ul>
                     </li>
-                    <li><span>2010:</span>
-                        <ul>
-                            <li>Migoń P., PánekT., Malik I., Hrádecký J., <span>Owczarek P</span>., Šilhán K. 2010:
+                    <li class="workers__item"><span class="workers__span">2010:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Migoń P., PánekT., Malik I., Hrádecký J.,
+                                <span class="workers__span">Owczarek P</span>., Šilhán K. 2010:
                                 Complex landslide
                                 terrain in the Kamienne Mountains, Middle Sudetes, SW Poland. Geomorphology, 124(3):
                                 200-214. <br>
-                                <a href="https://doi.org/10.1016/j.geomorph.2010.09.024">https://doi.org/10.1016/j.geomorph.2010.09.024</a>
+                                <a class="workers__link" href="https://doi.org/10.1016/j.geomorph.2010.09.024">https://doi.org/10.1016/j.geomorph.2010.09.024</a>
                             </li>
-                            <li>Łokas E., Wachniew P., Ciszewski D., <span>Owczarek P</span>., Chau, N. D. 2010:
+                            <li class="workers__item">Łokas E., Wachniew P., Ciszewski D.,
+                                <span class="workers__span">Owczarek P</span>.,
+                                Chau, N. D. 2010:
                                 Simultaneous use of trace metals, 210Pb and 137Cs in floodplain sediments of a lowland
                                 river as indicators of anthropogenic impacts. Water, Air, and Soil Pollution, 207(1-4):
                                 57-71. DOI:10.1007/s11270-009-0119-4</li>
-                            <li><span>Owczarek P</span>., 2010: Talus cone activity recorded by tree-rings of Arctic
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., 2010: Talus cone
+                                activity recorded by
+                                tree-rings of Arctic
                                 dwarf shrubs: a study case from SW Spitsbergen, Norway. Geologija 52: 34-399.
                                 DOI:10.2478/v10056-010-0003-3</li>
-                            <li><span>Owczarek P</span>., 2010: Dendrochronological dating of geomorphic processes In
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., 2010:
+                                Dendrochronological dating of
+                                geomorphic processes In
                                 the High Arctic. Landform Analysis 14: 45-56.</li>
                         </ul>
                     </li>
-                    <li><span>2009:</span>
-                        <ul>
-                            <li>Malik I., <span>Owczarek P</span>., 2009: Dendrochronological records of debris flow and
+                    <li class="workers__item"><span class="workers__span">2009:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Malik I., <span class="workers__span">Owczarek P</span>., 2009:
+                                Dendrochronological
+                                records of debris flow and
                                 avalanche in
                                 a mid-mountain forest zone (Eastern Sudetes – Central Europe), Geochronometria 34:
                                 57-66. <br>
-                                <a href="https://doi.org/10.2478/v10003-009-0011-7">https://doi.org/10.2478/v10003-009-0011-7</a>
+                                <a class="workers__link" href="https://doi.org/10.2478/v10003-009-0011-7">https://doi.org/10.2478/v10003-009-0011-7</a>
                             </li>
-                            <li>R. Kaczka, I. Malik, <span>P. Owczarek</span>, H. Gärtner, G. Helle & I. Heinrich (eds.)
+                            <li class="workers__item">R. Kaczka, I. Malik,
+                                <span class="workers__span">P. Owczarek</span>, H. Gärtner, G.
+                                Helle & I. Heinrich (eds.)
                                 2009: TRACE – Tree Rings in Archaeology, Climatology and Ecology, Vol. 7. GFZ Potsdam –
                                 Sci. Tech. Rep. 09/03: 226 pp. DOI: 10.2312/GFZ.b103-09038</li>
-                            <li><span>Owczarek P</span>., 2009: Dendrogeomorphological potencial of Salicaceae from SW
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., 2009:
+                                Dendrogeomorphological potencial
+                                of Salicaceae from SW
                                 Spitsbergen,
                                 Svalbard. [w:] Kaczka R, Malik I, Owczarek P, Gärtner H, Helle G, Heinrich I (eds.):
                                 TRACE - Tree Rings in Archaeology, Climatology and Ecology, Vol. 7. GFZ Potsdam,
                                 Scientific Technical Report STR 09/03: 181 – 186.</li>
-                            <li><span>Owczarek P</span>., Nawrot A., Pętlicki M., 2009: Współczesny rozwój doliny Arie w
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., Nawrot A.,
+                                Pętlicki M., 2009:
+                                Współczesny rozwój doliny Arie w
                                 świetle
                                 badań dendrochronologicznych, SW Spitsbergen. [w:] Kostrzewski A., Paluszkiewicz R.
                                 (red.) Geneza, litologia i stratygrafia utworów czwartorzędowych, tom V. Wydawnictwo
                                 Naukowe UAM, Poznań: 369 – 384.</li>
                         </ul>
                     </li>
-                    <li><span>2008:</span> <span>Owczarek P</span>., 2008: Hillslope deposits in gravel-bed rivers and
+                    <li class="workers__item"><span class="workers__span">2008:</span>
+                        <span class="workers__span">Owczarek P</span>., 2008: Hillslope deposits in
+                        gravel-bed rivers and
                         their effects
                         on the evolution of alluvial channel forms: A case study from the Sudetes and Carpathian
                         Mountains. Geomorphology 98: 111-12. <br>
-                        <a href="https://doi.org/10.1016/j.geomorph.2007.02.028">https://doi.org/10.1016/j.geomorph.2007.02.028</a>
+                        <a class="workers__link" href="https://doi.org/10.1016/j.geomorph.2007.02.028">https://doi.org/10.1016/j.geomorph.2007.02.028</a>
                     </li>
-                    <li><span>2007:</span>
-                        <ul>
-                            <li><span>Owczarek P</span>. 2007: Transformacja koryt rzecznych w warunkach dostawy
+                    <li class="workers__item"><span class="workers__span">2007:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>. 2007: Transformacja
+                                koryt rzecznych w
+                                warunkach dostawy
                                 grubofrakcyjnego
                                 materiału stokowego (na przykładzie średniogórskich dopływów Odry i Wisły). Prace
                                 Naukowe Uniwersytetu Śląskiego w Katowicach nr 2510: 136 pp.</li>
-                            <li>Malik I., <span>Owczarek P</span>., 2007: Dendrochronologiczny zapis erozji i depozycji
+                            <li class="workers__item">Malik I., <span class="workers__span">Owczarek P</span>., 2007:
+                                Dendrochronologiczny
+                                zapis erozji i depozycji
                                 w potokach
                                 górskich przegrodzonych zaporami przeciwrumowiskowymi na przykładzie Černego Potoku
                                 (Jeseniki – Sudety Wschodnie), Przegląd Geograficzny, 79: 313-334.</li>
                         </ul>
                     </li>
-                    <li><span>2006:</span>
-                        <ul>
-                            <li>Malik I., <span>Owczarek P</span>., 2006: Wykorzystanie odsłoniętych korzeni drzew do
+                    <li class="workers__item"><span class="workers__span">2006:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Malik I., <span class="workers__span">Owczarek P</span>., 2006:
+                                Wykorzystanie
+                                odsłoniętych korzeni drzew do
                                 określenia
                                 przebiegu erozji zboczy dolin i depozycji zwietrzelin w korytach rzek górskich (Sudety
                                 Wschodnie), Czasopismo Geograficzne, 76 (3): 101 – 116. </li>
-                            <li>Łokas E., Ciszewski D., Wachniew P., <span>Owczarek P</span>., 2006: Wykorzystanie 210Pb
+                            <li class="workers__item">Łokas E., Ciszewski D., Wachniew P.,
+                                <span class="workers__span">Owczarek P</span>.,
+                                2006: Wykorzystanie 210Pb
                                 i metali
                                 ciężkich w badaniach tempa współczesnej sedymentacji zanieczyszczonych osadów
                                 fluwialnych, Przegląd Geologiczny 54 (10): 888 – 894 </li>
-                            <li>Ciszewski D, Kramarz P., Malik I., <span>Owczarek P</span>., Zygmunt E., 2006:
+                            <li class="workers__item">Ciszewski D, Kramarz P., Malik I.,
+                                <span class="workers__span">Owczarek P</span>.,
+                                Zygmunt E., 2006:
                                 Geomorfologiczne
                                 skutki funkcjonowania i degradacji sztucznych progów wodnych, Czasopismo Geograficzne,
                                 76(4): 329 – 343.</li>
                         </ul>
                     </li>
-                    <li><span>2004:</span>
-                        <ul>
-                            <li><span>Owczarek P</span>., 2004: Układ i struktura średniogórskich koryt w warunkach
+                    <li class="workers__item"><span class="workers__span">2004:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., 2004: Układ i
+                                struktura średniogórskich
+                                koryt w warunkach
                                 lokalnej dostawy
                                 zwietrzelin (Sudety Wschodnie), Przegląd Geologiczny, 52 (11). 1082-1083.</li>
-                            <li><span>Owczarek P</span>., 2004: The influence of hillslope delivery on the morphology of
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., 2004: The
+                                influence of hillslope
+                                delivery on the morphology of
                                 gravel bed
                                 rivers, Polish Flysh Carpathians, Geomorphologia Slovaca, 4 (1): 40-45.
                             </li>
-                            <li><span>Owczarek P</span>., 2004, Evolution of alluvial channel forms under the influence
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., 2004, Evolution of
+                                alluvial channel
+                                forms under the influence
                                 of hillslope
                                 sediment delivery (S Poland), [w:] M. Mikoš & D. Gutknecht (red.) INTERPRAEVENT 2004 –
                                 Changes within Natural and Cultural Habitat and Consequences. Tagungspublikation Band 4:
                                 225-232.
                             </li>
-                            <li><span>Owczarek P</span>., 2004, Układ i struktura średniogórskich koryt w warunkach
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., 2004, Układ i
+                                struktura średniogórskich
+                                koryt w warunkach
                                 lokalnej dostawy
                                 zwietrzelin (Sudety Wschodnie) [w:] Geologiczne i środowiskowe problemy gospodarowania i
                                 ochrony doliny górnej i środkowej Odry. Państwowy Instytut Geologiczny, Wrocław: 83-96.
                             </li>
                         </ul>
                     </li>
-                    <li><span>2003:</span>
-                        <ul>
-                            <li><span>Owczarek P</span>., 2003: The variation in clast orientation in mid-mountain river
+                    <li class="workers__item"><span class="workers__span">2003:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Owczarek P</span>., 2003: The
+                                variation in clast orientation
+                                in mid-mountain river
                                 channels under the influence of coarse-grained regolith supply, Polish Flysch
                                 Carpathians, Studia Geomorphologica Carpatho-Balcanica, 37: 97-110. </li>
-                            <li>Klimek K., Malik I., <span>Owczarek P</span>., Zygmunt E., 2003: Climatic and human
+                            <li class="workers__item">Klimek K., Malik I.,
+                                <span class="workers__span">Owczarek P</span>., Zygmunt E., 2003:
+                                Climatic and human
                                 impact on episodic alluviation in small mountain valley, Sudety Mountains, Geographia
                                 Polonica, 76 (2): 55-64.</li>
-                            <li>Klimek K., Malik I., <span>Owczarek P</span>., Zygmunt E., 2003, Historical flood
+                            <li class="workers__item">Klimek K., Malik I.,
+                                <span class="workers__span">Owczarek P</span>., Zygmunt E., 2003,
+                                Historical flood
                                 evidence using geomorphological dendrochronological records Sudetes Mountains, Central
                                 Europe, [w:] V. R. Thorndycraft, G. Benito, M. Barriendos, M. C. Llasat (eds.),
                                 Paleofloods, Historical Data & Climatic Variability: Aplications in Flood Risk
                                 Assessment, Barcelona: 62-65.</li>
                         </ul>
                     </li>
-                    <li><span>2002:</span> <span>Owczarek P</span>., 2002: The differentation of the conditions of
+                    <li class="workers__item"><span class="workers__span">2002:</span>
+                        <span class="workers__span">Owczarek P</span>., 2002: The differentation of
+                        the conditions of
                         alluvial sedimentation in the Warta Gorge through the Cracov Upland, Poland, Quaestiones
                         Geographicae 22: 59-66.
                     </li>
                 </ul>
-
-                <hr>
-
+                <hr class="hr">
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <p>&copy;
                 <script>document.write(new Date().getFullYear());</script> Zakład Geografii Fizycznej. All Rights
                 Reserved.

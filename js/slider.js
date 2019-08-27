@@ -9,12 +9,12 @@ const slideList = [{
 }
 ];
 
-const image = document.querySelector('img.banner');
-const dots = [...document.querySelectorAll('.dots span')]
+const image = document.querySelector('.slider__img');
+const dots = [...document.querySelectorAll('.slider__dots-span')];
 const time = 5000;
 let active = 0;
-const leftArrow = document.querySelector('i.icon-left-circle');
-const rightArrow = document.querySelector('i.icon-right-circle');
+const leftArrow = document.querySelector('.icon-left-circle');
+const rightArrow = document.querySelector('.icon-right-circle');
 
 const changeDot = () => {
     const activeDot = dots.findIndex(dot => dot.classList.contains('active'));

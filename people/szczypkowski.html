@@ -15,122 +15,155 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1>Zakład Geografii Fizycznej</h1>
-            <a href="https://uni.wroc.pl/" target="_blank">
-                    <img src="../img/logo.jpg" alt="logo">
-                </a>
+        <header class="header">
+            <h1 class="header__title">Zakład Geografii Fizycznej</h1>
+            <a class="header__link" href="https://uni.wroc.pl/" target="_blank">
+                <img class="header__logo" src="../img/logo.jpg" alt="logo">
+            </a>
         </header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Strona głowna</a></li>
-                <li><a href="">O nas</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a></li>
-                        <li><a href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a></li>
-                        <li><a href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a></li>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="../index.html">Strona głowna</a></li>
+                <li class="menu__item"><a class="menu__link" href="">O nas</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Nauka</a></li>
-                <li><a href="">Pracownicy</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./jary.html">Prof. dr hab. Zdzisław Jary</a></li>
-                        <li><a href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a></li>
-                        <li><a href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a></li>
-                        <li><a href="./korabiewski.html">Dr Bartosz Korabiewski</a></li>
-                        <li><a href="./raczyk.html">Dr Jerzy Raczyk</a></li>
-                        <li><a href="./stachnik.html">Dr Łukasz Stachnik</a></li>
-                        <li><a href="./rekas.html">Mgr Krzysztof Rękas</a></li>
-                        <li><a href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
-                        <li><a href="./kenis.html">Mgr Piotr Kenis</a></li>
-                        <li><a href="./ryzner.html">Mgr Kamila Ryzner</a></li>
-                        <li><a href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
-                        <li><a href="./szczypkowski.html">Mgr Piotr Szczypkowski</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Nauka</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Pracownicy</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./jary.html">Prof. dr hab. Zdzisław Jary</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./korabiewski.html">Dr Bartosz Korabiewski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./raczyk.html">Dr Jerzy Raczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./stachnik.html">Dr Łukasz Stachnik</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./rekas.html">Mgr Krzysztof Rękas</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./kenis.html">Mgr Piotr Kenis</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./ryzner.html">Mgr Kamila Ryzner</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./szczypkowski.html">Mgr Piotr Szczypkowski</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Prace dyplomowe</a></li>
-                <li><a href="">Dla studentów</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Linki</a></li>
-                <li><a href="../kontakt.html">Kontakt</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Prace dyplomowe</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Dla studentów</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Galeria</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Linki</a></li>
+                <li class="menu__item"><a class="menu__link" href="../kontakt.html">Kontakt</a></li>
             </ul>
             <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
             </div>
         </nav>
-        <main>
+        <main class="main">
             <section class="workers">
-                <h1>Mgr Piotr Szczypkowski</h1>
-                <div class="worker-header">
-                    <div class="photo">
-                        <img src="" alt="Piotr Szczypkowski">
+                <h1 class="workers__header">Mgr Piotr Szczypkowski</h1>
+                <div class="workers__head">
+                    <div class="workers__photo">
+                        <img class="workers__img" src="" alt="Piotr Szczypkowski">
                     </div>
-                    <div class="main-info">
-                        <h2>Kontakt</h2>
-                        <p>nr pokoju: 183</p>
-                        <p>nr telefonu: 071 375-9-557</p>
-                        <p>e-mail: <a href="mailto:piotr.szczypkowski@uwr.edu.pl">piotr.szczypkowski@uwr.edu.pl</a></p>
-                        <p>konsultacje:</p>
+                    <div class="workers__main-info">
+                        <h2 class="workers__header2">Kontakt</h2>
+                        <p class="workers__paragraph">nr pokoju: 183</p>
+                        <p class="workers__paragraph">nr telefonu: 071 375-9-557</p>
+                        <p class="workers__paragraph">e-mail:
+                            <a class="workers__link" href="mailto:piotr.szczypkowski@uwr.edu.pl">piotr.szczypkowski@uwr.edu.pl</a>
+                        </p>
+                        <p class="workers__paragraph">konsultacje:</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="hr">
 
-                <h2>Zainteresowania naukowe:</h2>
-                <ul>
-                    <li>Paleoklimatologiczna interpretacja osadów jeziornych</li>
-                    <li>Paleoklimatologia</li>
-                    <li>Współczesne zmiany klimatu</li>
+                <h2 class="workers__header2">Zainteresowania naukowe:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Paleoklimatologiczna interpretacja osadów jeziornych</li>
+                    <li class="workers__item">Paleoklimatologia</li>
+                    <li class="workers__item">Współczesne zmiany klimatu</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wykształcenie:</h2>
-                <ul>
-                    <li><span>2005 – 2007:</span> Studia licencjackie na kierunku geografia nauczycielska na
+                <h2 class="workers__header2">Wykształcenie:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2005 – 2007:</span> Studia licencjackie na
+                        kierunku geografia
+                        nauczycielska na
                         Wydziale
                         Nauk o Ziemi i
                         Kształtowania Środowiska Uniwersytetu Wrocławskiego</li>
-                    <li><span>2007:</span> Dyplom licencjata geografii</li>
-                    <li><span>2009 – 2012:</span> Studia magisterskie w kierunkach: 1- meteorologia i klimatologia,
+                    <li class="workers__item"><span class="workers__span">2007:</span> Dyplom licencjata geografii</li>
+                    <li class="workers__item"><span class="workers__span">2009 – 2012:</span> Studia magisterskie w
+                        kierunkach: 1-
+                        meteorologia i klimatologia,
                         2 -
                         geografia
                         nauczycielska; na Wydziale Nauk o Ziemi i Kształtowania Środowiska Uniwersytetu
                         Wrocławskiego
                     </li>
-                    <li><span>2012:</span> Dyplom magistra geografii, specjalność 1- meteorologia i klimatologia, 2
+                    <li class="workers__item"><span class="workers__span">2012:</span> Dyplom magistra geografii,
+                        specjalność 1- meteorologia
+                        i klimatologia, 2
                         -
                         geografia
                         nauczycielska, tytuł pracy: Cechy fizyczno-chemiczne osadu z jeziora Rev jako wskaźnik zmian
                         klimatu.</li>
-                    <li><span>2018:</span> Rozpoczęcie Stacjonarnych Studiów Doktoranckich na Wydziale Nauk o Ziemi
+                    <li class="workers__item"><span class="workers__span">2018:</span> Rozpoczęcie Stacjonarnych Studiów
+                        Doktoranckich na
+                        Wydziale Nauk o Ziemi
                         i
                         Kształtowania
                         Środowiska Uniwersytetu Wrocławskiego</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Dydaktyka:</h2>
-                <ul>
+                <h2 class="workers__header2">Dydaktyka:</h2>
+                <ul class="workers__list">
                     <li>Paleogeografia, Gospodarka Zasobami Glebowymi</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Doświadczenia naukowe zdobyte za granicą:</h2>
-                <hr>
+                <h2 class="workers__header2">Doświadczenia naukowe zdobyte za granicą:</h2>
+                <hr class="hr">
 
-                <h2>Nagrody i wyróżnienia:</h2>
-                <hr>
+                <h2 class="workers__header2">Nagrody i wyróżnienia:</h2>
+                <hr class="hr">
 
-                <h2>Udział w projektach badawczych:</h2>
-                <hr>
+                <h2 class="workers__header2">Udział w projektach badawczych:</h2>
+                <hr class="hr">
 
-                <h2>Wybrane publikacje:</h2>
-                <hr>
+                <h2 class="workers__header2">Wybrane publikacje:</h2>
+                <hr class="hr">
 
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <p>&copy;
                 <script>document.write(new Date().getFullYear());</script> Zakład Geografii Fizycznej. All Rights
                 Reserved.

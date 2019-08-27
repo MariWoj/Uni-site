@@ -15,252 +15,343 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1>Zakład Geografii Fizycznej</h1>
-            <a href="https://uni.wroc.pl/" target="_blank">
-                    <img src="../img/logo.jpg" alt="logo">
-                </a>
+        <header class="header">
+            <h1 class="header__title">Zakład Geografii Fizycznej</h1>
+            <a class="header__link" href="https://uni.wroc.pl/" target="_blank">
+                <img class="header__logo" src="../img/logo.jpg" alt="logo">
+            </a>
         </header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Strona głowna</a></li>
-                <li><a href="">O nas</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a></li>
-                        <li><a href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a></li>
-                        <li><a href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a></li>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="../index.html">Strona głowna</a></li>
+                <li class="menu__item"><a class="menu__link" href="">O nas</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Nauka</a></li>
-                <li><a href="">Pracownicy</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./jary.html">Prof. dr hab. Zdzisław Jary</a></li>
-                        <li><a href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a></li>
-                        <li><a href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a></li>
-                        <li><a href="./korabiewski.html">Dr Bartosz Korabiewski</a></li>
-                        <li><a href="./raczyk.html">Dr Jerzy Raczyk</a></li>
-                        <li><a href="./stachnik.html">Dr Łukasz Stachnik</a></li>
-                        <li><a href="./rekas.html">Mgr Krzysztof Rękas</a></li>
-                        <li><a href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
-                        <li><a href="./kenis.html">Mgr Piotr Kenis</a></li>
-                        <li><a href="./ryzner.html">Mgr Kamila Ryzner</a></li>
-                        <li><a href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
-                        <li><a href="./szczypkowski.html">Mgr Piotr Szczypkowski</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Nauka</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Pracownicy</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./jary.html">Prof. dr hab. Zdzisław Jary</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./korabiewski.html">Dr Bartosz Korabiewski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./raczyk.html">Dr Jerzy Raczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./stachnik.html">Dr Łukasz Stachnik</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./rekas.html">Mgr Krzysztof Rękas</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./kenis.html">Mgr Piotr Kenis</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./ryzner.html">Mgr Kamila Ryzner</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./szczypkowski.html">Mgr Piotr Szczypkowski</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Prace dyplomowe</a></li>
-                <li><a href="">Dla studentów</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Linki</a></li>
-                <li><a href="../kontakt.html">Kontakt</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Prace dyplomowe</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Dla studentów</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Galeria</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Linki</a></li>
+                <li class="menu__item"><a class="menu__link" href="../kontakt.html">Kontakt</a></li>
             </ul>
             <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
             </div>
         </nav>
-        <main>
+        <main class="main">
             <section class="workers">
-                <h1>Dr Bartosz Korabiewski</h1>
-                <div class="worker-header">
-                    <div class="photo">
-                        <img src="../img/korabiewski.jpg" alt="Bartosz Korabiewski">
+                <h1 class="workers__header">Dr Bartosz Korabiewski</h1>
+                <div class="workers__head">
+                    <div class="workers__photo">
+                        <img class="workers__img" src="../img/korabiewski.jpg" alt="Bartosz Korabiewski">
                     </div>
-                    <div class="main-info">
-                        <h2>Kontakt:</h2>
-                        <p>nr pokoju: 187</p>
-                        <p>nr telefonu: 071 375-9-561</p>
-                        <p>e-mail: <a href="mailto:bartosz.korabiewski@uwr.edu.pl">bartosz.korabiewski@uwr.edu.pl</a>
+                    <div class="workers__main-info">
+                        <h2 class="workers__header2">Kontakt:</h2>
+                        <p class="workers__paragraph">nr pokoju: 187</p>
+                        <p class="workers__paragraph">nr telefonu: 071 375-9-561</p>
+                        <p class="workers__paragraph">e-mail:
+                            <a class="workers__link" href="mailto:bartosz.korabiewski@uwr.edu.pl">bartosz.korabiewski@uwr.edu.pl</a>
                         </p>
-                        <p>konsultacje: brak (dydaktyka wyłącznie w semestrze zimowym)</p>
+                        <p class="workers__paragraph">konsultacje: brak (dydaktyka wyłącznie w semestrze zimowym)</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="hr">
 
-                <h2>Zainteresowania naukowe:</h2>
-                <ul>
-                    <li>Geochemia gleb, zanieczyszczenia metalami ciężkimi</li>
-                    <li>Antropopresja w środowisku</li>
-                    <li>Gleboznawstwo, gleby obszarów polarnych i wysokogórskich</li>
-                    <li>Geomorfologia fluwialna</li>
-                    <li>Techniki GIS w badaniach środowiskowych</li>
+                <h2 class="workers__header2">Zainteresowania naukowe:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Geochemia gleb, zanieczyszczenia metalami ciężkimi</li>
+                    <li class="workers__item">Antropopresja w środowisku</li>
+                    <li class="workers__item">Gleboznawstwo, gleby obszarów polarnych i wysokogórskich</li>
+                    <li class="workers__item">Geomorfologia fluwialna</li>
+                    <li class="workers__item">Techniki GIS w badaniach środowiskowych</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wykształcenie:</h2>
-                <ul>
-                    <li><span>1987-1992:</span> Studia magisterskie w Instytucie Geograficznym UWr</li>
-                    <li><span>1992:</span> Dyplom magistra geografii, specjalność Geomorfologia, tytuł pracy: Morfologia
+                <h2 class="workers__header2">Wykształcenie:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">1987-1992:</span> Studia magisterskie w
+                        Instytucie Geograficznym UWr
+                    </li>
+                    <li class="workers__item"><span class="workers__span">1992:</span> Dyplom magistra geografii,
+                        specjalność Geomorfologia,
+                        tytuł pracy: Morfologia
                         doliny
                         Wisłoki w okolicy Pilzna. Opiekun: prof. dr hab. Alfreda Jahna</li>
-                    <li><span>2002:</span> Obrona pracy doktorskiej pod kier. prof. dr hab. Adolfa Szponara, Morfogeneza
+                    <li class="workers__item"><span class="workers__span">2002:</span> Obrona pracy doktorskiej pod
+                        kier. prof. dr hab. Adolfa
+                        Szponara, Morfogeneza
                         doliny
                         górnej i środkowej Kwisy w okresie neoholoceniu w świetle badań metalostratygraficznych i
                         gleboznawczych</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Dydaktyka:</h2>
-                <ul>
-                    <li>Gleboznawstwo</li>
-                    <li>Gospodarka Zasobami Glebowymi</li>
-                    <li>Fizjografia Planistyczna</li>
-                    <li>Antropopresja w środowisku</li>
-                    <li>Człowiek w środowisku</li>
-                    <li>Ochrona litosfery i pedosfery</li>
-                    <li>Ochrona przyrody</li>
-                    <li>Ocena stanu środowiska gruntowo-wodnego</li>
-                    <li>Gospodarka odpadami</li>
-                    <li>Fizjografia urbanistyczna</li>
-                    <li>Rekultywacja terenów przemysłowych</li>
-                    <li>Analiza środowiska przyrodniczego</li>
-                    <li>Metodyka oznaczania zanieczyszczeń środowiska</li>
-                    <li>Środowisko pustynne</li>
-                    <li>Geochemia środowiska</li>
+                <h2 class="workers__header2">Dydaktyka:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Gleboznawstwo</li>
+                    <li class="workers__item">Gospodarka Zasobami Glebowymi</li>
+                    <li class="workers__item">Fizjografia Planistyczna</li>
+                    <li class="workers__item">Antropopresja w środowisku</li>
+                    <li class="workers__item">Człowiek w środowisku</li>
+                    <li class="workers__item">Ochrona litosfery i pedosfery</li>
+                    <li class="workers__item">Ochrona przyrody</li>
+                    <li class="workers__item">Ocena stanu środowiska gruntowo-wodnego</li>
+                    <li class="workers__item">Gospodarka odpadami</li>
+                    <li class="workers__item">Fizjografia urbanistyczna</li>
+                    <li class="workers__item">Rekultywacja terenów przemysłowych</li>
+                    <li class="workers__item">Analiza środowiska przyrodniczego</li>
+                    <li class="workers__item">Metodyka oznaczania zanieczyszczeń środowiska</li>
+                    <li class="workers__item">Środowisko pustynne</li>
+                    <li class="workers__item">Geochemia środowiska</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Doświadczenia naukowe zdobyte za granicą:</h2>
-                <ul>
-                    <li><span>2018:</span> 6.07-9.08. Udział w wyprawie naukowej UW w Pamir (Tadżykistan, Kirgizja) w
+                <h2 class="workers__header2">Doświadczenia naukowe zdobyte za granicą:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span> 6.07-9.08. Udział w wyprawie
+                        naukowej UW w Pamir
+                        (Tadżykistan, Kirgizja) w
                         ramach projektu „Wpływ biologicznych skorup glebowych na rozwój gleb w warunkach klimatu
                         półsuchego: ocena sekwestracji C i N w ekosystemach wysokogórskich.”</li>
-                    <li><span>2015:</span> 15.07-3.08. Udział w wyprawie naukowej UW w Pamir (Tadżykistan) w ramach
+                    <li class="workers__item"><span class="workers__span">2015:</span> 15.07-3.08. Udział w wyprawie
+                        naukowej UW w Pamir
+                        (Tadżykistan) w ramach
                         projektu „Mokradła Pamiru Wschodniego: występowanie, charakterystyka przyrodnicza i stan
                         zachowania.”</li>
-                    <li><span>2011:</span>
-                        <ul>
-                            <li>Udział w wyprawie naukowej (projekt badawczy 4445/PB/IGRR/11) na Spitsbergen</li>
-                            <li>27.03-1.04. Wizyta studyjna w Instytucie Geograficznym na Ruhr Universitat Bochum
+                    <li class="workers__item"><span class="workers__span">2011:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Udział w wyprawie naukowej (projekt badawczy 4445/PB/IGRR/11) na
+                                Spitsbergen</li>
+                            <li class="workers__item">27.03-1.04. Wizyta studyjna w Instytucie Geograficznym na Ruhr
+                                Universitat Bochum
                                 (Niemcy).
                                 prof. B. Marschner</li>
                         </ul>
                     </li>
-                    <li><span>2010:</span> 7.07 – 31.07. Udział w wyprawie naukowej Instytutu Geografii i Rozwoju
+                    <li class="workers__item"><span class="workers__span">2010:</span> 7.07 – 31.07. Udział w wyprawie
+                        naukowej Instytutu
+                        Geografii i Rozwoju
                         Regionalnego UWr w Ałtaj (Kazachstan)</li>
-                    <li><span>2009:</span> 4.07 – 10.08. Udział w Wyprawie Polarnej Instytutu Geograficznego na
+                    <li class="workers__item"><span class="workers__span">2009:</span> 4.07 – 10.08. Udział w Wyprawie
+                        Polarnej Instytutu
+                        Geograficznego na
                         Spitsbergen</li>
-                    <li><span>2007:</span> 30.07 – 24.08. Udział w wyprawie naukowej w ramach wymiany z Uniwersytetem w
+                    <li class="workers__item"><span class="workers__span">2007:</span> 30.07 – 24.08. Udział w wyprawie
+                        naukowej w ramach
+                        wymiany z Uniwersytetem w
                         Aktau (Kazachstan)</li>
-                    <li><span>2006:</span>11.07 – 16.08. Udział w Wyprawie Polarnej Instytutu Geograficznego na
+                    <li class="workers__item"><span class="workers__span">2006:</span>11.07 – 16.08. Udział w Wyprawie
+                        Polarnej Instytutu
+                        Geograficznego na
                         Spitsbergen</li>
-                    <li><span>2005:</span> 20.09 – 5.10. Staż naukowy w Instytucie Geograficznym na Ruhr Universitat
+                    <li class="workers__item"><span class="workers__span">2005:</span> 20.09 – 5.10. Staż naukowy w
+                        Instytucie
+                        Geograficznym na Ruhr Universitat
                         Bochum (Niemcy)</li>
-                    <li><span>2004:</span> 11.07 – 16.08. Udział w Wyprawie Polarnej Instytutu Geograficznego na
+                    <li class="workers__item"><span class="workers__span">2004:</span> 11.07 – 16.08. Udział w
+                        Wyprawie Polarnej Instytutu
+                        Geograficznego na
                         Spitsbergen</li>
-                    <li><span>2000:</span> 14 – 18.01. Ukończony kurs „Geo Information and Communication Technology” –
-                        Szymbark, PTG Warszawa i Uniwersytet Techniczny (TU) w Delft (Holandia). Wykł. Prof. Ir. Henri
+                    <li class="workers__item"><span class="workers__span">2000:</span> 14 – 18.01. Ukończony kurs
+                        „Geo Information and
+                        Communication Technology” –
+                        Szymbark, PTG Warszawa i Uniwersytet Techniczny (TU) w Delft (Holandia). Wykł. Prof. Ir.
+                        Henri
                         J.G.L. Alders</li>
-                    <li><span>1998:</span>
-                        <ul>
-                            <li>1.05 – 31.05. Staż naukowy w Instytucie Geograficznym na Ruhr Universitat Bochum
+                    <li class="workers__item"><span class="workers__span">1998:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">1.05 – 31.05. Staż naukowy w Instytucie Geograficznym na Ruhr
+                                Universitat Bochum
                                 (Niemcy). Konsultacje naukowe nt. wykorzystania wyników analiz zawartości metali
                                 ciężkich w osadach do datowania wieku względnego osadu.</li>
-                            <li>23.02-9.03. Udział w kursie z zakresu zastosowania technik GIS w geografii przy użyciu
+                            <li class="workers__item">23.02-9.03. Udział w kursie z zakresu zastosowania technik GIS
+                                w geografii przy użyciu
                                 programu GRASS – w ENRIS na Królewskim Uniwersytecie Technicznym (KTH) w Sztokholmie
                                 (Szwecja)</li>
                         </ul>
                     </li>
-                    <li><span>1995:</span> 16.09-16.10. Staż naukowy w Petersburskim Uniwersytecie Państwowym w St.
+                    <li class="workers__item"><span class="workers__span">1995:</span> 16.09-16.10. Staż naukowy w
+                        Petersburskim
+                        Uniwersytecie Państwowym w St.
                         Petersburgu (Rosja) </li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Nagrody i wyróżnienia:</h2>
-                <hr>
+                <h2 class="workers__header2">Nagrody i wyróżnienia:</h2>
+                <hr class="hr">
 
-                <h2>Udział w projektach badawczych:</h2>
-                <ul>
-                    <li>Grant NCN, nr projektu 2013/09/B/ST10/01662), 2014-2017: Mokradła Pamiru Wschodniego:
+                <h2 class="workers__header2">Udział w projektach badawczych:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Grant NCN, nr projektu 2013/09/B/ST10/01662), 2014-2017: Mokradła Pamiru
+                        Wschodniego:
                         występowanie, charakterystyka przyrodnicza i stan zachowania. Charakter udziału – wykonawca</li>
-                    <li>Grant NCN, nr projektu 2017/25/B/ST10/00468, 2018-2021, Wpływ biologicznych skorup glebowych na
+                    <li class="workers__item">Grant NCN, nr projektu 2017/25/B/ST10/00468, 2018-2021, Wpływ
+                        biologicznych skorup glebowych na
                         rozwój gleb w warunkach klimatu półsuchego: ocena sekwestracji C i N w ekosystemach
                         wysokogórskich. Charakter udziału – wykonawca</li>
-                    <li>rojekt współfinansowany przez UE w ramach Europejskiego Funduszu Społecznego WND-POKL.
+                    <li class="workers__item">rojekt współfinansowany przez UE w ramach Europejskiego Funduszu
+                        Społecznego WND-POKL.
                         03.03.04-00-042/10 „Projekt EKOLOGIA – innowacyjny, interdyscyplinarny program nauczania
                         przedmiotów matematyczno-przyrodniczych metodą projektu”. Charakter udziału – wykonawca</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wybrane publikacje:</h2>
-                <ul>
-                    <li><span>2018:</span> Skurzyński J., Jary Z., Raczyk J., Moska P., <span>Korabiewski B</span>.,
+                <h2 class="workers__header2">Wybrane publikacje:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span> Skurzyński J., Jary Z., Raczyk
+                        J., Moska P.,
+                        <span class="workers__span">Korabiewski B</span>.,
                         Ryzner K., Krawczyk M., 2018. Geochemical characterization of the Late Pleistocene
                         loess-palaeosol sequence in Tyszowce (Sokal Plateau-Ridge, SE Poland). <br> Quaternary
                         International,
                         w druku. <br>
-                        <a href="https://doi.org/10.1016/j.quaint.2018.04.023">https://doi.org/10.1016/j.quaint.2018.04.023</a>
+                        <a class="workers__link" href="https://doi.org/10.1016/j.quaint.2018.04.023">https://doi.org/10.1016/j.quaint.2018.04.023</a>
                     </li>
-                    <li><span>2015:</span> Raczyk J., Jary Z., <span>Korabiewski B</span>., 2015. Geochemical properties
+                    <li class="workers__item"><span class="workers__span">2015:</span> Raczyk J., Jary Z.,
+                        <span class="workers__span">Korabiewski B</span>., 2015.
+                        Geochemical properties
                         of the Late Pleistocene loess-soil sequence in Dankowice (Niemcza-Strzelin Hills), Landform
                         Analysis. - Vol. 29, s. 49-61. <br>
                         DOI: 10.12657/landfana.029.007
                     </li>
-                    <li><span>2014:</span> Owczarek P., Migała K., <span>Korabiewski B</span>., 2014. Flood-plain
+                    <li class="workers__item"><span class="workers__span">2014:</span> Owczarek P., Migała K.,
+                        <span class="workers__span">Korabiewski B</span>.,
+                        2014. Flood-plain
                         responses to contemporary climate change in small High-Arctic basins (Svalbard, Norway), Boreas.
                         - Vol. 43, iss. 2, s. 384-402. <br>
-                        <a href="http://dx.doi.org/10.1111/bor.12061">http://dx.doi.org/10.1111/bor.12061</a></li>
-                    <li><span>2013:</span> Kabała C., <span>Korabiewski B</span>., 2013. Środowisko geograficzne
+                        <a class="workers__link" href="http://dx.doi.org/10.1111/bor.12061">http://dx.doi.org/10.1111/bor.12061</a>
+                    </li>
+                    <li class="workers__item"><span class="workers__span">2013:</span> Kabała C.,
+                        <span class="workers__span">Korabiewski B</span>., 2013.
+                        Środowisko geograficzne
                         otoczenia Stacji Polarnej im. Stanisława Baranowskiego - Lodowiec Werenskiolda. Gleby, [W:]
                         Dawne i współczesne geoekosystemy Spitsbergenu: polskie badania geomorfologiczne Zwoliński Z.,
                         Kostrzewski A., Pulina M., (red.), Poznań, Bogucki Wydawnictwo Naukowe, s. 114-118.</li>
-                    <li><span>2012:</span> Jary Z., Kasprzak M., <span>Korabiewski B</span>., Owczarek P., Jancewicz K.,
+                    <li class="workers__item"><span class="workers__span">2012:</span> Jary Z., Kasprzak M.,
+                        <span class="workers__span">Korabiewski B</span>.,
+                        Owczarek P., Jancewicz K.,
                         Schutty B., 2012. Współczesne procesy morfogenetyczne w górnej części zlewni Buchtarmy (Wysoki
                         Ałtaj, Kazachstan), Landform Analysis. - Vol. 20 (2012), s. 31-49 </li>
-                    <li><span>2011:</span>
-                        <ul>
-                            <li>Kasza L., <span>Korabiewski B</span>., Leśniewicz S., Tarka R., Tarka Z., 2011. Ziemia:
+                    <li class="workers__item"><span class="workers__span">2011:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Kasza L., <span class="workers__span">Korabiewski B</span>.,
+                                Leśniewicz S., Tarka R.,
+                                Tarka Z., 2011. Ziemia:
                                 eksperymenty z trzema żywiołami. Korabiewski B., Tarka R. (red.), Wrocław, Uniwersytet
                                 Wrocławski. Wydział Nauk o Ziemi i Kształtowania Środowiska, 104 s.</li>
-                            <li>Kasza L., <span>Korabiewski B</span>., Leśniewicz S., Tarka R., Tarka Z., 2011. Ziemia:
+                            <li class="workers__item">Kasza L., <span class="workers__span">Korabiewski B</span>.,
+                                Leśniewicz S., Tarka R.,
+                                Tarka Z., 2011. Ziemia:
                                 przewodnik po projektach edukacyjnych. Korabiewski B., Tarka R., Moskwa K. (red.),
                                 Wrocław, Uniwersytet Wrocławski. Wydział Nauk o Ziemi i Kształtowania Środowiska, 128 s.
                             </li>
-                            <li>Kasza L., <span>Korabiewski B</span>., Leśniewicz S., Tarka R., 2011. Ziemia: zabawy z
+                            <li class="workers__item">Kasza L., <span class="workers__span">Korabiewski B</span>.,
+                                Leśniewicz S., Tarka R.,
+                                2011. Ziemia: zabawy z
                                 trzema żywiołami. Korabiewski B., Tarka R., Moskwa K. (red.), Wrocław, Uniwersytet
                                 Wrocławski. Wydział Nauk o Ziemi i Kształtowania Środowiska, 56 s.</li>
                         </ul>
                     </li>
-                    <li><span>2010:</span>
-                        <ul>
-                            <li><span>Korabiewski B</span>., Kuc M., Lewicki P., Lewicki St., 2010. Gleby [W:]
+                    <li class="workers__item"><span class="workers__span">2010:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item"><span class="workers__span">Korabiewski B</span>., Kuc M., Lewicki
+                                P., Lewicki St.,
+                                2010. Gleby [W:]
                                 Środowisko Wrocławia, Oficyna Wydawnicza Atut, s. 143-146.</li>
-                            <li><span>Korabiewski B</span>., Lewicki P., 2010. Gleby Wrocławia [W:] Środowisko
+                            <li class="workers__item"><span class="workers__span">Korabiewski B</span>., Lewicki P.,
+                                2010. Gleby Wrocławia
+                                [W:] Środowisko
                                 Wrocławia, Oficyna Wydawnicza Atut, s. 22-25.</li>
                         </ul>
                     </li>
-                    <li><span>2008:</span><span> Korabiewski B</span>., 2008. Metale ciężkie w osadach dennych Jeziora
+                    <li class="workers__item">
+                        <span class="workers__span">2008:</span><span class="workers__span"> Korabiewski B</span>.,
+                        2008. Metale ciężkie w
+                        osadach dennych Jeziora
                         Leśniańskiego na rzece Kwisie [W:] Zapis działalności człowieka w środowisku przyrodniczym. T. 3
                         E. Smolska, P. Szwarczewski (red.), Warszawa, Wydawnictwo Szkoły Wyższej Przymierza Rodzin, s.
                         71-77</li>
-                    <li><span>2005:</span> <span>Korabiewski B</span>., 2005. Metale ciężkie w osadach dennych Jeziora
+                    <li class="workers__item"><span class="workers__span">2005:</span>
+                        <span class="workers__span">Korabiewski B</span>., 2005. Metale ciężkie w
+                        osadach dennych Jeziora
                         Leśniańskiego [W:] Jeziora i sztuczne zbiorniki wodne: procesy przyrodnicze oraz znaczenie
                         społeczno-gospodarcze, A.T. Jankowski i M. Rzętała (red.), Sosnowiec, s. 107-113. </li>
-                    <li><span>2004:</span> Alexandrowicz W.P., Gębica P., <span>Korabiewski B</span>., 2004. Osady i
+                    <li class="workers__item"><span class="workers__span">2004:</span> Alexandrowicz W.P., Gębica P.,
+                        <span class="workers__span">Korabiewski B</span>., 2004. Osady i
                         malakofauna plejstoceńskiej terasy Wisłoki w Pilźnie koło Dębicy [W:] Prace Komisji
                         Paleogeografii Czwartorzędu Polskiej Akademii Umiejętności, T. 2, Kraków, s. 31-37.</li>
-                    <li><span>2003:</span> Szwarczewski P., <span>Korabiewski B</span>., 2003. Wybrane geochemiczne
+                    <li class="workers__item"><span class="workers__span">2003:</span> Szwarczewski P.,
+                        <span class="workers__span">Korabiewski B</span>., 2003.
+                        Wybrane geochemiczne
                         cechy osadów wypełniających starorzecza w dolinie dolnej Pilicy w okolicach Warki. [W:] Cechy
                         teksturalne osadów stokowych i fluwialnych. E. Smolska, P. Szwarczewski (red.), Warszawa, Prace
                         i Studia Geograficzne, Uniwersytet Warszawski, t. 33. s. 71-81.</li>
-                    <li><span>2002:</span> <span>Korabiewski B</span>., 2002. Wykorzystanie metali ciężkich w określaniu
+                    <li class="workers__item"><span class="workers__span">2002:</span>
+                        <span class="workers__span">Korabiewski B</span>., 2002. Wykorzystanie metali
+                        ciężkich w określaniu
                         wieku względnego osadu na przykładzie zlewni górnej Kwisy [W:] Zapis z działalności człowieka w
                         środowisku przyrodniczym P. Szwarczewski, E. Smolska (red.)., T. 1 – Warszawa - Łomża, s. 65-69
                     </li>
-                    <li><span>2001:</span> <span>Korabiewski B</span>., 2001. Próba zastosowania metody
+                    <li class="workers__item"><span class="workers__span">2001:</span>
+                        <span class="workers__span">Korabiewski B</span>., 2001. Próba zastosowania
+                        metody
                         metalostratygrafii w badaniu aluwiów holoceńskich na Dolnym Śląsku na przykładzie Kwisy w
                         okolicy Mirska. [W:] Geneza, litologia i stratygrafia utworów czwartorzędowych (A. Kostrzewski
                         (red.),. T. 3, Poznań, s. 209-217</li>
-                    <li><span>1994:</span> <span>Korabiewski B</span>., 1994. Morfologia Doliny Wisłoki w okolicy
+                    <li class="workers__item"><span class="workers__span">1994:</span>
+                        <span class="workers__span">Korabiewski B</span>., 1994. Morfologia Doliny
+                        Wisłoki w okolicy
                         Pilzna. Czasopismo Geograficzne, T. 65, z. 3-4, s. 327-336.</li>
                 </ul>
-
-                <hr>
-
+                <hr class="hr">
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <p>&copy;
                 <script>document.write(new Date().getFullYear());</script> Zakład Geografii Fizycznej. All Rights
                 Reserved.

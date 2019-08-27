@@ -15,195 +15,249 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1>Zakład Geografii Fizycznej</h1>
-            <a href="https://uni.wroc.pl/" target="_blank">
-                    <img src="../img/logo.jpg" alt="logo">
-                </a>
+        <header class="header">
+            <h1 class="header__title">Zakład Geografii Fizycznej</h1>
+            <a class="header__link" href="https://uni.wroc.pl/" target="_blank">
+                <img class="header__logo" src="../img/logo.jpg" alt="logo">
+            </a>
         </header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Strona głowna</a></li>
-                <li><a href="">O nas</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a></li>
-                        <li><a href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a></li>
-                        <li><a href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a></li>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="../index.html">Strona głowna</a></li>
+                <li class="menu__item"><a class="menu__link" href="">O nas</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Nauka</a></li>
-                <li><a href="">Pracownicy</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./jary.html">Prof. dr hab. Zdzisław Jary</a></li>
-                        <li><a href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a></li>
-                        <li><a href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a></li>
-                        <li><a href="./korabiewski.html">Dr Bartosz Korabiewski</a></li>
-                        <li><a href="./raczyk.html">Dr Jerzy Raczyk</a></li>
-                        <li><a href="./stachnik.html">Dr Łukasz Stachnik</a></li>
-                        <li><a href="./rekas.html">Mgr Krzysztof Rękas</a></li>
-                        <li><a href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
-                        <li><a href="./kenis.html">Mgr Piotr Kenis</a></li>
-                        <li><a href="./ryzner.html">Mgr Kamila Ryzner</a></li>
-                        <li><a href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
-                        <li><a href="./szczypkowski.html">Mgr Piotr Szczypkowski</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Nauka</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Pracownicy</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./jary.html">Prof. dr hab. Zdzisław Jary</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./korabiewski.html">Dr Bartosz Korabiewski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./raczyk.html">Dr Jerzy Raczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./stachnik.html">Dr Łukasz Stachnik</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./rekas.html">Mgr Krzysztof Rękas</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./kenis.html">Mgr Piotr Kenis</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./ryzner.html">Mgr Kamila Ryzner</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./szczypkowski.html">Mgr Piotr Szczypkowski</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Prace dyplomowe</a></li>
-                <li><a href="">Dla studentów</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Linki</a></li>
-                <li><a href="../kontakt.html">Kontakt</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Prace dyplomowe</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Dla studentów</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Galeria</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Linki</a></li>
+                <li class="menu__item"><a class="menu__link" href="../kontakt.html">Kontakt</a></li>
             </ul>
             <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
             </div>
         </nav>
-        <main>
+        <main class="main">
             <section class="workers">
-                <h1>Mgr Marcin Krawczyk</h1>
-                <div class="worker-header">
-                    <div class="photo">
-                        <img src="" alt="Marcin Krawczyk">
+                <h1 class="workers__header">Mgr Marcin Krawczyk</h1>
+                <div class="workers__head">
+                    <div class="workers__photo">
+                        <img class="workers__img" src="" alt="Marcin Krawczyk">
                     </div>
-                    <div class="main-info">
-                        <h2>Kontakt:</h2>
-                        <p>nr pokoju: 181</p>
-                        <p>nr telefonu: 071 375-95-81</p>
-                        <p>e-mail: <a href="mailto:marcin.krawczyk2@uwr.edu.pl">marcin.krawczyk2@uwr.edu.pl</a></p>
-                        <p>konsultacje: środa 12:00-13:00; czwartek 12:00-13:00</p>
+                    <div class="workers__main-info">
+                        <h2 class="workers__header2">Kontakt:</h2>
+                        <p class="workers__paragraph">nr pokoju: 181</p>
+                        <p class="workers__paragraph">nr telefonu: 071 375-95-81</p>
+                        <p class="workers__paragraph">e-mail:
+                            <a class="workers__link" href="mailto:marcin.krawczyk2@uwr.edu.pl">marcin.krawczyk2@uwr.edu.pl</a>
+                        </p>
+                        <p class="workers__paragraph">konsultacje: środa 12:00-13:00; czwartek 12:00-13:00</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="hr">
 
-                <h2>Zainteresowania naukowe:</h2>
-                <ul>
-                    <li>Geologia czwartorzędu</li>
-                    <li>Paleogeografia</li>
-                    <li>Gleboznawstwo i ochrona gleb</li>
-                    <li>Geoarcheologia</li>
-                    <li>Analizy granulometryczne osadów pylastych i gleb</li>
+                <h2 class="workers__header2">Zainteresowania naukowe:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Geologia czwartorzędu</li>
+                    <li class="workers__item">Paleogeografia</li>
+                    <li class="workers__item">Gleboznawstwo i ochrona gleb</li>
+                    <li class="workers__item">Geoarcheologia</li>
+                    <li class="workers__item">Analizy granulometryczne osadów pylastych i gleb</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wykształcenie:</h2>
-                <ul>
-                    <li><span>2005 - 2009:</span> Liceum Ogólnokształcące im. Leona Kruczkowskiego w Warcie</li>
-                    <li><span>2009-2012:</span> Uniwersytet Wrocławski; uzyskanie dyplomu licencjata na kierunku
+                <h2 class="workers__header2">Wykształcenie:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2005 - 2009:</span> Liceum Ogólnokształcące
+                        im. Leona Kruczkowskiego
+                        w Warcie</li>
+                    <li class="workers__item"><span class="workers__span">2009-2012:</span> Uniwersytet Wrocławski;
+                        uzyskanie dyplomu
+                        licencjata na kierunku
                         geografia</li>
-                    <li><span>2012- 2014:</span> Uniwersytet Wrocławski; studia magisterskie (dzienne) na kierunku
+                    <li class="workers__item"><span class="workers__span">2012- 2014:</span> Uniwersytet Wrocławski;
+                        studia magisterskie
+                        (dzienne) na kierunku
                         geografia, specjalność: geoekologia. Temat realizowanej pracy magisterskiej: „Rekonstrukcja
                         paleośrodowiskowa sekwencji lessów późnoplejstoceńskich w Złotej koło Sandomierza”</li>
-                    <li><span>Od 2014:</span> Uniwersytet Wrocławski; Stacjonarne Studia Doktoranckie Geografii. Temat
+                    <li class="workers__item"><span class="workers__span">Od 2014:</span> Uniwersytet Wrocławski;
+                        Stacjonarne Studia
+                        Doktoranckie Geografii. Temat
                         realizowanej rozprawy: „Cechy środowisk sedymentacyjnych zapisane w składzie granulometrycznym
                         oraz barwie lessów młodszych w Polsce”</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Dydaktyka:</h2>
-                <ul>
-                    <li>Analiza środowiska przyrodniczego II – ćwiczenia i laboratorium</li>
-                    <li>Gleboznawstwo – laboratorium</li>
-                    <li>Monitoring środowiska I – ćwiczenia</li>
-                    <li>Zmiany klimatu zapisane w osadach eolicznych – ćwiczenia i ćwiczenia terenowe</li>
-                    <li>Formy ochrony przyrody – ćwiczenia terenowe</li>
-                    <li>Formy ochrony przyrody (Dolny Śląsk) – ćwiczenia terenowe</li>
-                    <li>Hydrologia – ćwiczenia terenowe</li>
-                    <li>Ćwiczenia terenowe - moduł GF</li>
-                    <li>Ćwiczenia terenowe 2</li>
-                    <li>Field exercises</li>
+                <h2 class="workers__header2">Dydaktyka:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Analiza środowiska przyrodniczego II – ćwiczenia i laboratorium</li>
+                    <li class="workers__item">Gleboznawstwo – laboratorium</li>
+                    <li class="workers__item">Monitoring środowiska I – ćwiczenia</li>
+                    <li class="workers__item">Zmiany klimatu zapisane w osadach eolicznych – ćwiczenia i ćwiczenia
+                        terenowe</li>
+                    <li class="workers__item">Formy ochrony przyrody – ćwiczenia terenowe</li>
+                    <li class="workers__item">Formy ochrony przyrody (Dolny Śląsk) – ćwiczenia terenowe</li>
+                    <li class="workers__item">Hydrologia – ćwiczenia terenowe</li>
+                    <li class="workers__item">Ćwiczenia terenowe - moduł GF</li>
+                    <li class="workers__item">Ćwiczenia terenowe 2</li>
+                    <li class="workers__item">Field exercises</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Doświadczenia naukowe zdobyte za granicą:</h2>
-                <ul>
-                    <li><span>2018:</span> International Conference Natural Hazards – lessons from the past and
+                <h2 class="workers__header2">Doświadczenia naukowe zdobyte za granicą:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span> International Conference Natural
+                        Hazards – lessons from
+                        the past and
                         contemporary challenges, Novi Sad, Serbia</li>
-                    <li><span>2017:</span> 2nd International Conference on Geoheritage & Geotourism. 20-23 Wrzesień
+                    <li class="workers__item"><span class="workers__span">2017:</span> 2nd International Conference on
+                        Geoheritage &
+                        Geotourism. 20-23 Wrzesień
                         2017,
                         Wrocław, Poland.
                         - Komitet organizacyjny</li>
-                    <li><span>2016:</span>
-                        <ul>
-                            <li>International Conference on Loess Research "Loess2M: modelling and mapping", Nowy Sad,
+                    <li class="workers__item"><span class="workers__span">2016:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">International Conference on Loess Research "Loess2M: modelling and
+                                mapping", Nowy Sad,
                                 Serbia, 26-29 Sierpień 2016</li>
-                            <li>2016 INQUA LoessFest, 22-26 wrzesień 2016, Eau Claire, Wisconsin, USA
+                            <li class="workers__item">2016 INQUA LoessFest, 22-26 wrzesień 2016, Eau Claire, Wisconsin,
+                                USA
                                 - Przewodniczący sesji referatowej</li>
                         </ul>
                     </li>
-                    <li><span>2015:</span>
-                        <ul>
-                            <li>Transactions of the Dan H. Yaalon Symposium, Wiedeń, 8-11 Kwiecień 2015</li>
-                            <li>Lessy i paleolit Podola - XIX ukraińsko-polskie seminarium lessowe, Tarnopol, Ukraina,
+                    <li class="workers__item"><span class="workers__span">2015:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Transactions of the Dan H. Yaalon Symposium, Wiedeń, 8-11 Kwiecień
+                                2015</li>
+                            <li class="workers__item">Lessy i paleolit Podola - XIX ukraińsko-polskie seminarium
+                                lessowe, Tarnopol, Ukraina,
                                 23-27 sierpnia 2015</li>
                         </ul>
                     </li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Nagrody i wyróżnienia:</h2>
-                <ul>
-                    <li><span>2018 – 2019:</span> Stypendium dla najlepszych doktorantów WNOZiKŚ UWr.</li>
+                <h2 class="workers__header2">Nagrody i wyróżnienia:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018 – 2019:</span> Stypendium dla najlepszych
+                        doktorantów WNOZiKŚ
+                        UWr.</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Udział w projektach badawczych:</h2>
-                <ul>
-                    <li><span>2018:</span> Projekt badawczy „Wpływ rozdzielczości poboru próbek na wartość
+                <h2 class="workers__header2">Udział w projektach badawczych:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span> Projekt badawczy „Wpływ
+                        rozdzielczości poboru próbek na
+                        wartość
                         interpretacyjną wskaźników uziarnienia na przykładzie sekwencji lessów młodszych górnych
                         południowo-zachodniej Polski”, Wewnętrzny projekt badawczy finansowany w ramach działalności
                         statutowej – działanie służące rozwojowi młodych naukowców, kierownik: M. Krawczyk, nr
                         1238/M/IGRR/15</li>
-                    <li><span>2015/2016:</span> Opus 14 (projekt finansowany przez Narodowe Centrum Nauki). „Gwałtowne
+                    <li class="workers__item"><span class="workers__span">2015/2016:</span> Opus 14 (projekt finansowany
+                        przez Narodowe
+                        Centrum Nauki). „Gwałtowne
                         ochłodzenia w trakcie ostatniego zlodowacenia w centralnej części Europejskiego Pasa Lessowego –
                         w Polsce i w zachodniej części Ukrainy”. Funkcja: wykonawca. Okres realizacji: 36 miesięcy</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wybrane publikacje:</h2>
-                <ul>
-                    <li><span>2018:</span>
-                        <ul>
-                            <li>Moska P., Adamiec G., Jary Z., Bluszcz A., Poręba G., Piotrowska N.,
-                                <span>Krawczyk M</span>.,
+                <h2 class="workers__header2">Wybrane publikacje:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Moska P., Adamiec G., Jary Z., Bluszcz A., Poręba G., Piotrowska
+                                N.,
+                                <span class="workers__span">Krawczyk M</span>.,
                                 Skurzyński J., 2018. Luminescence chronostratigraphy for the loess deposits in Złota,
                                 Poland. Geochronometria, vol. 45: 44-55. </li>
-                            <li>Skurzyński J., Jary Z., Raczyk J., Moska P., Korabiewski B., Ryzner K.,
-                                <span>Krawczyk M</span>.,
+                            <li class="workers__item">Skurzyński J., Jary Z., Raczyk J., Moska P., Korabiewski B.,
+                                Ryzner K.,
+                                <span class="workers__span">Krawczyk M</span>.,
                                 2018. Geochemical characterization of the Late Pleistocene loess-palaeosol sequence in
                                 Tyszowce (Sokal Plateau-Ridge, SE Poland). Quaternary International, w druku. <br>
-                                <a href="https://doi.org/10.1016/j.quaint.2018.04.023">https://doi.org/10.1016/j.quaint.2018.04.023</a>
+                                <a class="workers__link" href="https://doi.org/10.1016/j.quaint.2018.04.023">https://doi.org/10.1016/j.quaint.2018.04.023</a>
                             </li>
                         </ul>
                     </li>
-                    <li><span>2017:</span>
-                        <ul>
-                            <li>Skurzyński J., Jary Z., Raczyk J., Moska P., <span>Krawczyk M</span>., 2017.
+                    <li class="workers__item"><span class="workers__span">2017:</span>
+                        <ul class="workers__list">
+                            <li class="workers__item">Skurzyński J., Jary Z., Raczyk J., Moska P.,
+                                <span class="workers__span">Krawczyk M</span>., 2017.
                                 Stratygraficzne i
                                 przestrzenne aspekty zróżnicowania składu chemicznego późnoplejstoceńskich sekwencji
                                 lessowo-glebowych w Polsce - przykłady profili w Tyszowcach i Białym Kościele. Acta
                                 Geographica Lodziensia, vol. 106: 87-103.</li>
-                            <li><span>Krawczyk M</span>., Ryzner K., Skurzyński J., Jary Z., 2017. Lithological
+                            <li class="workers__item"><span class="workers__span">Krawczyk M</span>., Ryzner K.,
+                                Skurzyński J., Jary Z., 2017.
+                                Lithological
                                 indicators of loess
                                 sedimentation of SW Poland. Contemporary Trends in Geoscience, vol. 6 (2): 94-111.</li>
                         </ul>
                     </li>
-                    <li><span>2016:</span> Sascha, M., Faust, D., Jary Z., <span>Krawczyk M</span>., Raczyk J., Ryzner
+                    <li class="workers__item"><span class="workers__span">2016:</span> Sascha, M., Faust, D., Jary Z.,
+                        <span class="workers__span">Krawczyk M</span>., Raczyk J., Ryzner
                         K., 2016. Late Pleistocene loess- palaelosol sequences from Saxony and Silesia, [In:] Erdkunden
                         in Sachsen und Schlesien: quartare sedimente im landschaftsgenetischen kontext/ [ed. By Dominik
                         Faust und Katja Heller]. Geozon Science Media. s. 57-73. DOI: 10.3285/g.00015www.geozon.net
                     </li>
-                    <li><span>2015:</span> Mroczek P., Jary Z., <span>Krawczyk M</span>., 2015, Walory przyrodnicze i
+                    <li class="workers__item"><span class="workers__span">2015:</span> Mroczek P., Jary Z.,
+                        <span class="workers__span">Krawczyk M</span>., 2015,
+                        Walory przyrodnicze i
                         kulturowe zachodniej części Wyżyny Wołyńskiej. [w:] M. Flaga, P. Mroczek (red.), Stan i zmiany
                         środowiska geograficznego wybranych regionów wschodniej Polski II, Lublin, 143-160</li>
                 </ul>
-
-                <hr>
-
+                <hr class="hr">
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <p>&copy;
                 <script>document.write(new Date().getFullYear());</script> Zakład Geografii Fizycznej. All Rights
                 Reserved.

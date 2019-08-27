@@ -15,116 +15,159 @@
 
 <body>
     <div class="wrapper">
-        <header>
-            <h1>Zakład Geografii Fizycznej</h1>
-            <a href="https://uni.wroc.pl/" target="_blank">
-                    <img src="../img/logo.jpg" alt="logo">
-                </a>
+        <header class="header">
+            <h1 class="header__title">Zakład Geografii Fizycznej</h1>
+            <a class="header__link" href="https://uni.wroc.pl/" target="_blank">
+                <img class="header__logo" src="../img/logo.jpg" alt="logo">
+            </a>
         </header>
-        <nav>
-            <ul>
-                <li><a href="../index.html">Strona głowna</a></li>
-                <li><a href="">O nas</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a></li>
-                        <li><a href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a></li>
-                        <li><a href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a></li>
+        <nav class="menu">
+            <ul class="menu__list">
+                <li class="menu__item"><a class="menu__link" href="../index.html">Strona głowna</a></li>
+                <li class="menu__item"><a class="menu__link" href="">O nas</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../zaklad-geografii-fizycznej.html">Zakład Geografii Fizycznej</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-gruntoznawcza.html">Pracownia Gruntoznawcza</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="../pracownia-dendrochronologiczna.html">Pracownia Dendrochronologiczna</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Nauka</a></li>
-                <li><a href="">Pracownicy</a>
-                    <ul class="dropdown-menu">
-                        <li><a href="./jary.html">Prof. dr hab. Zdzisław Jary</a></li>
-                        <li><a href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a></li>
-                        <li><a href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a></li>
-                        <li><a href="./korabiewski.html">Dr Bartosz Korabiewski</a></li>
-                        <li><a href="./raczyk.html">Dr Jerzy Raczyk</a></li>
-                        <li><a href="./stachnik.html">Dr Łukasz Stachnik</a></li>
-                        <li><a href="./rekas.html">Mgr Krzysztof Rękas</a></li>
-                        <li><a href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
-                        <li><a href="./kenis.html">Mgr Piotr Kenis</a></li>
-                        <li><a href="./ryzner.html">Mgr Kamila Ryzner</a></li>
-                        <li><a href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
-                        <li><a href="./szczypkowski.html">Mgr Piotr Szczypkowski</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Nauka</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Pracownicy</a>
+                    <ul class="menu__dropdown-menu">
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./jary.html">Prof. dr hab. Zdzisław Jary</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krzyszkowski.html">Prof. dr hab. Dariusz Krzyszkowski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./owczarek.html">Dr hab. Piotr Owczarek prof. UWr.</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./korabiewski.html">Dr Bartosz Korabiewski</a>
+                        </li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./raczyk.html">Dr Jerzy Raczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./stachnik.html">Dr Łukasz Stachnik</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./rekas.html">Mgr Krzysztof Rękas</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./krawczyk.html">Mgr Marcin Krawczyk</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./kenis.html">Mgr Piotr Kenis</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./ryzner.html">Mgr Kamila Ryzner</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./skurzynski.html">Mgr Jacek Skurzyński</a></li>
+                        <li class="menu__dropdown-item">
+                            <a class="menu__dropdown-link" href="./szczypkowski.html">Mgr Piotr Szczypkowski</a>
+                        </li>
                     </ul>
                 </li>
-                <li><a href="">Prace dyplomowe</a></li>
-                <li><a href="">Dla studentów</a></li>
-                <li><a href="">Galeria</a></li>
-                <li><a href="">Linki</a></li>
-                <li><a href="../kontakt.html">Kontakt</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Prace dyplomowe</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Dla studentów</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Galeria</a></li>
+                <li class="menu__item"><a class="menu__link" href="">Linki</a></li>
+                <li class="menu__item"><a class="menu__link" href="../kontakt.html">Kontakt</a></li>
             </ul>
             <div class="burger">
-                <span></span>
-                <span></span>
-                <span></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
+                <span class="burger__span"></span>
             </div>
         </nav>
-        <main>
+        <main class="main">
             <section class="workers">
-                <h1>Mgr Krzysztof Rękas</h1>
-                <div class="worker-header">
-                    <div class="photo">
-                        <img src="" alt="Krzysztof Rękas">
+                <h1 class="workers__header">Mgr Krzysztof Rękas</h1>
+                <div class="workers__head">
+                    <div class="workers__photo">
+                        <img class="workers__img" src="" alt="Krzysztof Rękas">
                     </div>
-                    <div class="main-info">
-                        <h2>Kontakt:</h2>
-                        <p>nr pokoju: 166</p>
-                        <p>nr telefonu: 071 375-9-580</p>
-                        <p>e-mail: <a href="mailto:krzysztof.rekas@uwr.edu.pl">krzysztof.rekas@uwr.edu.pl</a></p>
-                        <p>konsultacje: nie dotyczy</p>
+                    <div class="workers__main-info">
+                        <h2 class="workers__header2">Kontakt:</h2>
+                        <p class="workers__paragraph">nr pokoju: 166</p>
+                        <p class="workers__paragraph">nr telefonu: 071 375-9-580</p>
+                        <p class="workers__paragraph">e-mail:
+                            <a class="workers__link" href="mailto:krzysztof.rekas@uwr.edu.pl">krzysztof.rekas@uwr.edu.pl</a>
+                        </p>
+                        <p class="workers__paragraph">konsultacje: nie dotyczy</p>
                     </div>
                 </div>
-                <hr>
+                <hr class="hr">
 
-                <h2>Zainteresowania naukowe:</h2>
-                <ul>
-                    <li>Obieg wody w zlewniach sudeckich</li>
-                    <li>Uziarnienie osadów mineralnych</li>
-                    <li>Właściwości fizyko-chemiczne osadów i wód gruntowych</li>
-                    <li>Dyfraktometria laserowa</li>
-                    <li>Podatność magnetyczna skał i minerałów</li>
-                    <li>Obtoczenie i zmatowienie ziarn skalnych</li>
+                <h2 class="workers__header2">Zainteresowania naukowe:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item">Obieg wody w zlewniach sudeckich</li>
+                    <li class="workers__item">Uziarnienie osadów mineralnych</li>
+                    <li class="workers__item">Właściwości fizyko-chemiczne osadów i wód gruntowych</li>
+                    <li class="workers__item">Dyfraktometria laserowa</li>
+                    <li class="workers__item">Podatność magnetyczna skał i minerałów</li>
+                    <li class="workers__item">Obtoczenie i zmatowienie ziarn skalnych</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Wykształcenie:</h2>
-                <ul>
-                    <li><span>1997 – 2000:</span> Studia licencjackie w Instytucie Geografii UWr.
+                <h2 class="workers__header2">Wykształcenie:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">1997 – 2000:</span> Studia licencjackie w
+                        Instytucie Geografii UWr.
                     </li>
-                    <li><span>2000:</span> Dyplom licencjata geografii, tytuł pracy: „Obieg wody na stoku”</li>
-                    <li><span>2000 – 2002:</span> Studia magisterskie w Instytucie Geografii UWr.</li>
-                    <li><span>2002:</span> Dyplom magistra geografii, specjalność Geografia Fizyczna, tytuł pracy:
+                    <li class="workers__item"><span class="workers__span">2000:</span> Dyplom licencjata geografii,
+                        tytuł pracy: „Obieg wody
+                        na stoku”</li>
+                    <li class="workers__item"><span class="workers__span">2000 – 2002:</span> Studia magisterskie w
+                        Instytucie Geografii UWr.
+                    </li>
+                    <li class="workers__item"><span class="workers__span">2002:</span> Dyplom magistra geografii,
+                        specjalność Geografia
+                        Fizyczna, tytuł pracy:
                         „Cechy granulometryczne lessów vistuliańskich w wybranych profilach południowej Polski w świetle
                         badań metodą dyfraktometrii laserowej”</li>
                 </ul>
-                <hr>
+                <hr class="hr">
 
-                <h2>Dydaktyka:</h2>
-                <p>Nie dotyczy</p>
-                <hr>
+                <h2 class="workers__header2">Dydaktyka:</h2>
+                <p class="workers__paragraph">Nie dotyczy</p>
+                <hr class="hr">
 
-                <h2>Doświadczenia naukowe zdobyte za granicą:</h2>
-                <ul>
-                    <li><span>2018:</span> 24 - 28.09 Wyjazd szkoleniowy do Institute of Geology of the CAS, v. v. i. w
+                <h2 class="workers__header2">Doświadczenia naukowe zdobyte za granicą:</h2>
+                <ul class="workers__list">
+                    <li class="workers__item"><span class="workers__span">2018:</span> 24 - 28.09 Wyjazd szkoleniowy do
+                        Institute of Geology
+                        of the CAS, v. v. i. w
                         ramach projektu Erasmus+
                     </li>
-                    <li><span>2017:</span> 05 - 09.06 Wyjazd szkoleniowy do Institute of Geology of the CAS, v. v. i. w
+                    <li class="workers__item"><span class="workers__span">2017:</span> 05 - 09.06 Wyjazd szkoleniowy do
+                        Institute of Geology
+                        of the CAS, v. v. i. w
                         ramach projektu Erasmus+</li>
-                    <li><span>2016:</span> 13 - 17.06 Wyjazd szkoleniowy do Geographisches Institut na Universität
+                    <li class="workers__item"><span class="workers__span">2016:</span> 13 - 17.06 Wyjazd szkoleniowy do
+                        Geographisches
+                        Institut na Universität
                         Bayreuth w ramach projektu Erasmus+</li>
-                    <li><span>2015:</span> 08 - 12.06 Wyjazd szkoleniowy do UMR CNRS 8591 - Laboratoire de Géographie
+                    <li class="workers__item"><span class="workers__span">2015:</span> 08 - 12.06 Wyjazd szkoleniowy do
+                        UMR CNRS 8591 -
+                        Laboratoire de Géographie
                         Physique : Environnements quaternaires et actuels w ramach projektu Erasmus+</li>
-                    <li><span>2014:</span> 22 - 26.09 Wyjazd szkoleniowy do Institute of Geology AS CR w ramach projektu
+                    <li class="workers__item"><span class="workers__span">2014:</span> 22 - 26.09 Wyjazd szkoleniowy do
+                        Institute of Geology
+                        AS CR w ramach projektu
                         LLP Erasmus</li>
-                    <li><span>2013:</span> 23 - 27.09 Wyjazd szkoleniowy do Department of Geology and Paleontology na
+                    <li class="workers__item"><span class="workers__span">2013:</span> 23 - 27.09 Wyjazd szkoleniowy do
+                        Department of Geology
+                        and Paleontology na
                         SZEGEDI TUDOMÁNYEGYETEM w ramach projektu LLP Erasmus</li>
                 </ul>
-                <hr>
-
+                <hr class="hr">
             </section>
         </main>
-        <footer>
+        <footer class="footer">
             <p>&copy;
                 <script>document.write(new Date().getFullYear());</script> Zakład Geografii Fizycznej. All Rights
                 Reserved.
