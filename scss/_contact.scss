@@ -31,5 +31,11 @@
     &__iframe {
         height: 300px;
         width: 100%;
+        @media (min-width: 1024px) {
+            height: 350px;
+        }
+        @media (min-width: 1200px) {
+            height: 400px;
+        }
     } 
 }

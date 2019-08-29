@@ -20,11 +20,17 @@
         margin-bottom: 10px;
         margin-top: 10px;
         padding: 0 20px;
+        @media (min-width: 768px) {
+            padding: 0 40px;
+        }
     }
     &__paragraph {
         font-size: 1.6rem;
         margin-bottom: 10px;
         padding: 0 20px;
+        @media (min-width: 768px) {
+            padding: 0 40px;
+        }
     }
     &__list {
         list-style: square;
@@ -32,6 +38,9 @@
         margin-bottom: 10px;
         padding: 5px 15px 0 10px;
         font-size: 1.8rem;
+        @media (min-width: 768px) {
+            padding: 0 40px;
+        }
     }
     &__item {
         padding: 5px 15px 5px 10px;
@@ -40,6 +49,9 @@
         font-size: 1.6rem;
         padding: 15px;
         color: $uni-color;
+        @media (min-width: 768px) {
+            padding: 0 40px;
+        }
     }
     &__span {
         font-weight: bold;

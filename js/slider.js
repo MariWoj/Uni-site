@@ -85,6 +85,15 @@ window.addEventListener('keydown', keyChangeSlide);
 leftArrow.addEventListener('click', changeSlideLeft);
 rightArrow.addEventListener('click', changeSlideRight);
 
+dots.forEach((dot, index) => {
+    dot.addEventListener('click', function () {
+        clearInterval(interval);
+        active = index;
+        image.src = slideList[active].img;
+        changeDot();
+        interval = setInterval(changeSlide, time)
+    })
+});
 
 function scrollWin() {
     window.scrollTo(500, 0);

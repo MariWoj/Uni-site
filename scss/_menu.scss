@@ -1,16 +1,38 @@
 .menu {
-    position: relative;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1;
     background-color: $main-color;
     &__list {
         display: flex;
+        position: relative;
+        top: 56px;
         flex-direction: column;
         width: 100%;
         min-height: 56px;
         list-style: none;
+        @media (min-width: 1024px) {
+            flex-direction: row;
+            top: 0;
+        }
     }
     &__item {
+        position: relative;
         display: none;
         transition: .2s;
+        &:nth-child(1) {
+            border-top: 3px solid $uni-color;
+            @media (min-width: 1024px) {
+                border-top: none;
+            }
+        }
+        @media (min-width: 1024px) {
+            display: block;
+            flex-grow: 1;
+            flex-wrap: nowrap;
+            border-right: 1px solid $font-color;
+        }
     }
     &__list.active > &__item {
         display: block;
@@ -18,7 +40,7 @@
     &__link {
         display: block;
         height: 100%;
-        padding: 20px 0;
+        padding: 8px;
         background-color: $main-color;
         color: $font-color;
         border-bottom: 3px solid $font-color;
@@ -28,32 +50,62 @@
         font-size: 1.4rem;
         transition: .2s;
         cursor: pointer;
+        @media (min-width: 1024px) {
+            border-bottom-color: $main-color;
+            padding: 18px 10px;
+        }
         &:hover {
             color: $uni-color;
             border-bottom-color: $uni-color;
+        }
+        .menu__item.open > & {
+            background-color: lighten($main-color, 20%);
         }
     }
     &__dropdown-menu {
         display: none;
         width: 100%;
-        background-color: lighten($main-color, 10%);
+        background-color: lighten($main-color, 20%);
         letter-spacing: .5px;
-        box-shadow: 0 0 2px 1px lighten($main-color, 10%);
+        box-shadow: 0 0 2px 1px lighten($main-color, 20%);
         list-style: none;
         transition: .2s;
+        @media (min-width: 1024px) {
+            width: 250px;
+            position: absolute;
+            left: 0;
+            transform: translateX(-25%);
+            z-index: 1;
+        }
     }
-    &__item:hover > &__dropdown-menu {
+    &__item.open > &__dropdown-menu {
             display: block;
         }
     &__dropdown-link {
         display: block;
-        padding: 10px 5px;
+        padding: 6px;
         color: $font-color;
         text-align: center;
         border-bottom: 1px solid $font-color;
         text-decoration: none;
+        font-size: 1.1rem;
+        @media (min-width: 1024px) {
+            padding: 10px;
+        }
     }
     &__dropdown-link:hover {
         border-bottom: 1px solid $uni-color;
+    }
+    &__title {
+        position: absolute;
+        top: 10px;
+        left: 10%;
+        height: 46px;
+        background-color: $main-color;
+        font-size: 2.6rem;
+        color: $uni-color;
+        @media (min-width: 1024px) {
+            display: none;
+        }
     }
 }

@@ -3,15 +3,27 @@
     height: 300px;
     display: flex;
     flex-direction: column;
+
+    @media (min-width: 1024px) {
+        height: 150px;
+        flex-direction: row;
+     }
     &__uni {
         flex-basis: 50%;
         width: 100%;
         background-color: #ff6633;
+
+        @media (min-width: 1024px) {
+            height: 100%;
+         }
     }
     &__fb {
         flex-basis: 50%;
         width: 100%;
         background-color: #4267b2;
+        @media (min-width: 1024px) {
+            height: 100%;
+         }
     }
     &__link {
         height: 100%;

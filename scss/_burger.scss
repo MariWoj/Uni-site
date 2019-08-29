@@ -5,6 +5,10 @@
     width: 30px;
     height: 30px;
     transition: .2s;
+    cursor: pointer;
+    @media (min-width: 1024px) {
+        display: none;
+    }
     &.active {
         transform: rotate(-90deg);
         & span:nth-child(1) {

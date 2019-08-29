@@ -15,10 +15,16 @@ body {
     width: 100%;
     background-color: $font-color;
 
-    @media (min-width: 1480px) {
-        width: 65%;
+    @media (min-width: 1200px) {
+        width: 80%;
         margin: 0 auto;
         border-left: 1px solid $font-color;
         border-right: 1px solid $font-color;
+    }
+    @media (min-width: 1500px) {
+        width: 70%;
+    }
+    @media (min-width: 1800px) {
+        width: 60%;
     }
 }
