@@ -428,6 +428,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  border-bottom: 2px solid #fff;
 }
 
 @media (min-width: 1024px) {
