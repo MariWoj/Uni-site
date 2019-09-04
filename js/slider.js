@@ -94,7 +94,3 @@ dots.forEach((dot, index) => {
         interval = setInterval(changeSlide, time)
     })
 });
-
-function scrollWin() {
-    window.scrollTo(500, 0);
-}

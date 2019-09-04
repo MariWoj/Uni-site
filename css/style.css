@@ -169,7 +169,7 @@ body {
 .menu__link {
   display: block;
   height: 100%;
-  padding: 8px;
+  padding: 4px;
   background-color: #333;
   color: #fff;
   border-bottom: 3px solid #fff;
@@ -180,6 +180,12 @@ body {
   -webkit-transition: .2s;
   transition: .2s;
   cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .menu__link {
+    padding: 8px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -227,12 +233,18 @@ body {
 
 .menu__dropdown-link {
   display: block;
-  padding: 6px;
+  padding: 4px;
   color: #fff;
   text-align: center;
   border-bottom: 1px solid #fff;
   text-decoration: none;
   font-size: 1.1rem;
+}
+
+@media (min-width: 768x) {
+  .menu__dropdown-link {
+    padding: 6px;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -248,11 +260,18 @@ body {
 .menu__title {
   position: absolute;
   top: 10px;
-  left: 10%;
+  left: 8%;
   height: 46px;
   background-color: #333;
-  font-size: 2.6rem;
   color: #ff794d;
+  font-size: 2.4rem;
+}
+
+@media (min-width: 768px) {
+  .menu__title {
+    left: 10%;
+    font-size: 2.6rem;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -616,13 +635,15 @@ body {
 }
 
 .workshops__link {
-  font-size: 1.6rem;
+  font-size: 1.2rem;
   padding: 20px;
   color: #ff794d;
 }
 
 @media (min-width: 768px) {
   .workshops__link {
+    font-size: 1.6rem;
+    margin-left: 0;
     padding: 20px 40px;
   }
 }
@@ -766,13 +787,19 @@ body {
 }
 
 .workers__link {
-  font-size: 1.6rem;
-  padding: 15px;
+  font-size: 1.2rem;
+  padding: 20px;
   color: #ff794d;
+}
+
+.workers__link__link--main {
+  font-size: 1.5rem;
 }
 
 @media (min-width: 768px) {
   .workers__link {
+    font-size: 1.6rem;
+    margin-left: 0;
     padding: 0 40px;
   }
 }
