@@ -41,11 +41,11 @@ function removeTitleFromMenu() {
 }
 
 window.addEventListener('scroll', () => {
-    if (menu.offsetTop >= 300) {
+    if (menu.offsetTop >= 260) {
         addTitleToMenu();
     }
 
-    if (menu.offsetTop < 300) {
+    if (menu.offsetTop < 260) {
         removeTitleFromMenu();
     }
 })
