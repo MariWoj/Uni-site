@@ -241,7 +241,7 @@ body {
   font-size: 1.1rem;
 }
 
-@media (min-width: 768x) {
+@media (min-width: 768px) {
   .menu__dropdown-link {
     padding: 6px;
   }
