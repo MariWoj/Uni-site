@@ -25,7 +25,7 @@ function addTitleToMenu() {
     const div = document.createElement('div');
 
     div.setAttribute('class', 'menu__title');
-    div.innerText = "Zakład geografii fizycznej";
+    div.innerText = "Zakład Geografii Fizycznej";
 
     const isDivExist = document.querySelector('.menu__title');
     if (!isDivExist) {

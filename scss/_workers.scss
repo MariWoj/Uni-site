@@ -5,7 +5,6 @@
         flex-direction: column;
         justify-content: space-evenly;
         align-items: center;
-        padding-left: 15px;
         @media (min-width: 768px) {
             flex-direction: row;
         }
@@ -50,21 +49,18 @@
         padding: 5px 15px 5px 10px;
     }
     &__link {
-        font-size: 1.2rem;
-        margin-left: -12px;
-        padding: 20px;
+        font-size: 1.4rem;
+        word-wrap: break-word;
+        // padding: 10px;
         color: $uni-color;
         &--main {
-            font-size: 1.5rem;
-            margin-left: 0;
+            font-size: 1.6rem;
         }
-        @media (min-width: 420px) {
-            font-size: 1.4rem;
-        }
+        // @media (min-width: 420px) {
+        //     font-size: 1.4rem;
+        // }
         @media (min-width: 768px) {
             font-size: 1.6rem;
-            margin-left: 0;
-            padding: 0 40px;
         }
     }
     &__span {
