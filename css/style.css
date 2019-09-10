@@ -580,12 +580,20 @@ body {
   color: #ff794d;
 }
 
+.workshops__header--contact {
+  padding: 0;
+}
+
 .workshops__header2 {
   font-size: 2.8rem;
   font-weight: bold;
   margin-bottom: 10px;
   margin-top: 10px;
   padding: 0 20px;
+}
+
+.workshops__header2--contact {
+  padding: 0;
 }
 
 @media (min-width: 768px) {
@@ -598,6 +606,10 @@ body {
   font-size: 1.6rem;
   margin-bottom: 10px;
   padding: 0 20px;
+}
+
+.workshops__paragraph--contact {
+  padding: 0;
 }
 
 @media (min-width: 768px) {
@@ -634,17 +646,24 @@ body {
   }
 }
 
+.workshops__contact {
+  padding: 0 20px;
+}
+
 .workshops__link {
   font-size: 1.4rem;
   word-wrap: break-word;
-  padding: 20px;
   color: #ff794d;
+}
+
+.workshops__link--contact {
+  padding: 0;
 }
 
 @media (min-width: 768px) {
   .workshops__link {
     font-size: 1.6rem;
-    padding: 20px 40px;
+    padding: 0 40px;
   }
 }
 
