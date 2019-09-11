@@ -49,3 +49,17 @@ window.addEventListener('scroll', () => {
         removeTitleFromMenu();
     }
 })
+
+// handle back to top button
+window.addEventListener('scroll', () => {
+    const backToTopBtn = document.querySelector(".back-to-top");
+    if (window.scrollY > window.outerHeight) {
+        backToTopBtn.classList.add('back-to-top--show');
+    } if (window.scrollY < window.outerHeight) {
+        backToTopBtn.classList.remove('back-to-top--show');
+    }
+
+    backToTopBtn.addEventListener('click', () => {
+        window.scrollTo(0, 0);
+    })
+})
